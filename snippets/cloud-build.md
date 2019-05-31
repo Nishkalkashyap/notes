@@ -12,6 +12,14 @@ tags : ['google-cloud', 'firebase']
 
 ### 2. Go to triggers in the sidebar and select trigger.
 
+### 3. Setup local dev environment.
+
+1. Add the .env file with all the environment variables.
+
+2. Run the following command.
 ```sh
 gcloud kms encrypt   --plaintext-file=.env   --ciphertext-file=.env.enc   --location=global   --keyring=cloud-build-keyring   --key=cloud-build-key
 ```
+
+3. Add the `cloudbuild.yaml` file at the root of your project. Copy the config file reference fron [here.](/config-files/cloudbuild-yaml.md) 
+4. Push to the repo.
