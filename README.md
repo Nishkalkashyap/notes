@@ -3,7 +3,7 @@
 home: true
 heroImage: /images/icon-svg.svg
 heroText: Personal Notes
-tagline: Personal notes website.
+tagline: Personal website for personal notes. Mostly related to coding and stuff.!
 actionText: View Notes →
 actionLink: /snippets/
 features:
@@ -11,10 +11,6 @@ features:
   details: Quark uses Electron.js and Node.js so you can build your app with HTML, CSS, and JavaScript.
 - title: Simplicity
   details: Quark is built with simplicity in mind, so that creating projects with Quark is enjoyable, easy to learn, and accessible to just about anyone with basic programming skills.
-- title: Cross Platform
-  details: Compatible with Mac, Windows, and Linux, Quark projects run on all three platforms.
-- title: Cross Platform
-  details: Compatible with Mac, Windows, and Linux, Quark projects run on all three platforms.
 - title: Cross Platform
   details: Compatible with Mac, Windows, and Linux, Quark projects run on all three platforms.
 pageClass: landing-page

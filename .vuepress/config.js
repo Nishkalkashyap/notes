@@ -4,7 +4,7 @@ const AllTags = require('./../scripts/types').AllTags;
 
 module.exports = {
     title: 'Notes',
-    desctiption: 'Personal website for notes',
+    desctiption: 'Personal website for personal notes',
     ga: 'UA-112064718-3',
     serviceWorker: true,
     head: [
@@ -46,47 +46,47 @@ module.exports = {
         serviceWorker: {
             updatePopup: true
         },
-        nav: [
-        {
-            text: 'Snippets',
-            link: '/snippets/'
-        },
-        {
-            text: 'Config files',
-            link: '/config-files/'
-        },
-        {
-            text: 'Tags',
-            link : '/tags/'
-            // items: Object.keys(AllTags).map((tag) => {
-            //     return {
-            //         text: tag,
-            //         link: `/tags/${tag}.html`
-            //     }
-            // })
-        },
-        {
-            text: 'More',
-            items: [{
-                text: 'Links',
+        nav: [{
+                text: 'Snippets',
+                link: '/snippets/'
+            },
+            {
+                text: 'Config files',
+                link: '/config-files/'
+            },
+            {
+                text: 'Tags',
+                link: '/tags/'
+                // items: Object.keys(AllTags).map((tag) => {
+                //     return {
+                //         text: tag,
+                //         link: `/tags/${tag}.html`
+                //     }
+                // })
+            },
+            {
+                text: 'More',
                 items: [{
-                    text: 'Quark',
-                    link: 'https://quarkjs.io/'
-                },
-                {
-                    text: 'Social',
-                    link: 'https://social.quarkjs.io/'
-                },
-                {
-                    text: 'GitHub',
-                    link: 'https://github.com/Nishkalkashyap/'
-                }
-                ]
-            }]
-        },
+                    text: 'Links',
+                    items: [{
+                            text: 'Quark',
+                            link: 'https://quarkjs.io/'
+                        },
+                        {
+                            text: 'Social',
+                            link: 'https://social.quarkjs.io/'
+                        },
+                        {
+                            text: 'GitHub',
+                            link: 'https://github.com/Nishkalkashyap/'
+                        }
+                    ]
+                }]
+            },
         ],
         sidebar: {
             "/config-files/": [
+                "tsconfig-json.md",
                 "cloudbuild-yaml.md"
             ],
             "/tags/": [
