@@ -16,7 +16,9 @@ tags : ['google-cloud', 'firebase']
 
 1. Add the .env file with all the environment variables.
 
-2. Run the following command.
+2. Get the Keys from [google-cloud-iam.](https://console.cloud.google.com/security/kms) 
+
+3. Run the following command.
 ```sh
 gcloud kms encrypt   --plaintext-file=.env   --ciphertext-file=.env.enc   --location=global   --keyring=cloud-build-keyring   --key=cloud-build-key
 ```

@@ -104,7 +104,6 @@ module.exports = {
             ],
             "/snippets/": [
                 "cloud-build.md",
-                "env-enc-file.md",
                 "install-nodejs.md"
             ]
         }
