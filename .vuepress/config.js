@@ -5,7 +5,7 @@ const AllTags = require('./../scripts/types').AllTags;
 module.exports = {
     title: 'Notes',
     desctiption: 'Personal website for personal notes',
-    ga: 'UA-112064718-3',
+    ga: 'UA-112064718-2',
     serviceWorker: true,
     head: [
         [
