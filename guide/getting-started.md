@@ -7,7 +7,6 @@ tags : ['guide']
 # Getting Started
 Welcome to Quark. Quark is a flexible software sketchbook that helps you rapidly create functional softwares for your prototypal projects.
 
-This guide shows you how to build and run a simple quark sketch. You'll use the [Quark IDE](./user-interface.md) to create and build your sketches.
 
 #### Estimated completion time : Less than 5 minutes.
 
@@ -18,7 +17,6 @@ Before you begin, it is recommended that your development environment an npm pac
 
 ## Steps
 ### Step 1: Installing the Quark IDE
-You need to download and install the Quark IDE for your PC from [here.](/download/)
 
 ### Step 2: Starting a new Project
   1.  After installing Quark, open the IDE.

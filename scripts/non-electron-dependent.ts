@@ -9,10 +9,9 @@ import * as sharp from 'sharp';
 
 var beautify = require('js-beautify').js;
 
-const sidebars = ['guide', 'references', 'structures', 'FAQ', 'tags', 'snippets'];
-const readmefiles = ['guide', 'references', 'structures', 'FAQ', 'snippets'];
+const sidebars = ['guide', 'tags', 'snippets'];
+const readmefiles = ['guide', 'snippets'];
 
-const SNIPPETS_BASE_PATH = './snippets';
 const TAGS_BASE_PATH = './tags';
 
 (async () => {
@@ -158,8 +157,8 @@ async function updatePrimaryColor() {
 
     //png image
     const imageBuffer = await sharp(svgFilePath)
-    .png()
-    .toBuffer();
+        .png()
+        .toBuffer();
     fs.writeFileSync(pngFilePath, imageBuffer);
 
 

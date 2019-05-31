@@ -47,76 +47,63 @@ module.exports = {
             updatePopup: true
         },
         nav: [{
-                text: 'Guide',
-                link: '/guide/intro.md'
-            },
-            {
-                text: 'Tags',
-                items: Object.keys(AllTags).map((tag) => {
-                    return {
-                        text: tag,
-                        link: `/tags/${tag}.html`
-                    }
-                })
-            },
-            {
-                text: 'API',
-                items: [{
-                        text: 'References',
-                        link: '/references/'
-                        // link: '/references/app.html'
-                    }, {
-                        text: 'Structures',
-                        link: '/structures/'
-                        // link: '/structures/view-provider.html'
-                    }
-                    // {
-                    //     text: 'Style Guide',
-                    //     link: '/guide/intro.html'
-                    // }
-                ]
-            },
-            {
-                text: 'More',
-                items: [{
-                        text: 'FAQ',
-                        link: '/FAQ/glossary.html'
-                    },
-                    {
-                        text: 'Snippets',
-                        link: '/snippets/'
-                    },
-                    {
-                        text: 'Links',
-                        items: [{
-                                text: 'Social',
-                                link: 'https://social.quarkjs.io/'
-                            },
-                            {
-                                text: 'GitHub',
-                                link: 'https://github.com/Nishkalkashyap/Quark-docs'
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                text: 'Download',
-                link: '/download/'
-            }
+            text: 'Guide',
+            link: '/guide/'
+        },
+        {
+            text: 'Tags',
+            items: Object.keys(AllTags).map((tag) => {
+                return {
+                    text: tag,
+                    link: `/tags/${tag}.html`
+                }
+            })
+        },
+        // {
+        //     text: 'API',
+        //     items: [{
+        //             text: 'References',
+        //             link: '/references/'
+        //         }, {
+        //             text: 'Structures',
+        //             link: '/structures/'
+        //         }
+        //     ]
+        // },
+        {
+            text: 'More',
+            items: [
+                {
+                    text: 'Snippets',
+                    link: '/snippets/'
+                },
+                {
+                    text: 'Links',
+                    items: [
+                        {
+                            text: 'Quark',
+                            link: 'https://quarkjs.io/'
+                        },
+                        {
+                            text: 'Social',
+                            link: 'https://social.quarkjs.io/'
+                        },
+                        {
+                            text: 'GitHub',
+                            link: 'https://github.com/Nishkalkashyap/'
+                        }
+                    ]
+                }
+            ]
+        },
+            // {
+            //     text: 'Download',
+            //     link: '/download/'
+            // }
         ],
         sidebar: {
             "/guide/": [
                 "getting-started.md"
-            ],
-            "/references/": [
-                "app.md"
-            ],
-            "/structures/": [
-                "bottomview-controller.md"
-            ],
-            "/FAQ/": [
-                "license.md"
             ],
             "/tags/": [
                 "api.md",
@@ -138,32 +125,4 @@ module.exports = {
         config.resolve.alias['@vuepress'] = path.resolve('./.vuepress');
         config.resolve.alias['@scripts'] = path.resolve('./scripts');
     }
-    // configureWebpack: {
-    //     entry: {
-    //         styles: [
-    //             'vuesax/dist/vuesax.css'
-    //         ]
-    //     }
-    //     // module: {
-    //     //     rules: [{
-    //     //         test: /\.css$/,
-    //     //         use: ExtractTextPlugin.extract({
-    //     //             fallback: "style-loader",
-    //     //             use: "css-loader"
-    //     //         })
-    //     //     }]
-    //     // },
-    //     // plugins: [
-    //     //     new ExtractTextPlugin("styles.css")
-    //     // ]
-    // }
-    // chainWebpack: (config) => {
-    //     console.log(config);
-    //     const HtmlWebpackPlugin = config.plugins.find(plugin => {
-    //         return plugin.constructor.name === 'HtmlWebpackPlugin'
-    //     })
-
-    //     HtmlWebpackPlugin.options.chunksSortMode = 'none';
-    //     return config;
-    // }
 }
