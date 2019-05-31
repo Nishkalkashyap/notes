@@ -14,8 +14,8 @@ steps:
   - --ciphertext-file=.env.enc
   - --plaintext-file=.env
   - --location=global
-  - --keyring=cloud-build
-  - --key=cloud_build_docs-env
+  - --keyring=cloud-build-keyring
+  - --key=cloud-build-key
 
 # install
 - name: 'gcr.io/cloud-builders/npm'

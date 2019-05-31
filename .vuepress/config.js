@@ -46,10 +46,7 @@ module.exports = {
         serviceWorker: {
             updatePopup: true
         },
-        nav: [{
-            text: 'Guide',
-            link: '/guide/'
-        },
+        nav: [
         {
             text: 'Snippets',
             link: '/snippets/'
@@ -59,17 +56,14 @@ module.exports = {
             link: '/config-files/'
         },
         {
-            text: 'Snippets',
-            link: '/snippets/'
-        },
-        {
             text: 'Tags',
-            items: Object.keys(AllTags).map((tag) => {
-                return {
-                    text: tag,
-                    link: `/tags/${tag}.html`
-                }
-            })
+            link : '/tags/'
+            // items: Object.keys(AllTags).map((tag) => {
+            //     return {
+            //         text: tag,
+            //         link: `/tags/${tag}.html`
+            //     }
+            // })
         },
         {
             text: 'More',
@@ -92,10 +86,11 @@ module.exports = {
         },
         ],
         sidebar: {
-            "/guide/": [
-                "getting-started.md"
+            "/config-files/": [
+                "cloudbuild-yaml.md"
             ],
             "/tags/": [
+                "config-files.md",
                 "firebase.md",
                 "google-cloud.md",
                 "api.md",

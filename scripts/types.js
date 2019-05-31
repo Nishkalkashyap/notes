@@ -33,9 +33,9 @@ module.exports.AllTags = {
         color: '#651fff',
         description: `Firebase is Google's mobile platform that helps you quickly develop high-quality apps and grow your business.`
     },
-    guide: {
+    'config-files': {
         background: 'var(--text-color--dark)',
         color: '#e040fb',
-        description: `Arduino is an open-source hardware and software company, project and user community that designs and manufactures single-board microcontrollers.`
+        description: `Commonly used configuration files.`
     }
 };
