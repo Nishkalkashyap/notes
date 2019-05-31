@@ -1,0 +1,31 @@
+steps:
+# Decrypt
+- name: gcr.io/cloud-builders/gcloud
+  args:
+  - kms
+  - decrypt
+  - --ciphertext-file=.env.enc
+  - --plaintext-file=.env
+  - --location=global
+  - --keyring=cloud-build
+  - --key=cloud_build_docs-env
+
+# install
+- name: 'gcr.io/cloud-builders/npm'
+  args : ['install']
+
+# build
+- name: 'gcr.io/cloud-builders/npm'
+  args : ['run','cloud-build']
+
+# worker
+# - name: 'gcr.io/cloud-builders/npm'
+#   args : ['run','worker']
+
+# deploy
+- name: 'gcr.io/cloud-builders/npm'
+  args : ['run','deploy-ci']
+
+# build-notofication
+- name: 'gcr.io/cloud-builders/npm'
+  args : ['run','ssn']
