@@ -5,7 +5,7 @@ heroImage: /images/icon-svg.svg
 heroText: Personal Notes
 tagline: Personal notes website.
 actionText: View Notes →
-actionLink: /guide/
+actionLink: /snippets/
 features:
 - title: Web Technologies
   details: Quark uses Electron.js and Node.js so you can build your app with HTML, CSS, and JavaScript.

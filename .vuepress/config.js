@@ -55,6 +55,14 @@ module.exports = {
             link: '/snippets/'
         },
         {
+            text: 'Config files',
+            link: '/config-files/'
+        },
+        {
+            text: 'Snippets',
+            link: '/snippets/'
+        },
+        {
             text: 'Tags',
             items: Object.keys(AllTags).map((tag) => {
                 return {
@@ -65,24 +73,22 @@ module.exports = {
         },
         {
             text: 'More',
-            items: [
+            items: [{
+                text: 'Links',
+                items: [{
+                    text: 'Quark',
+                    link: 'https://quarkjs.io/'
+                },
                 {
-                    text: 'Links',
-                    items: [{
-                        text: 'Quark',
-                        link: 'https://quarkjs.io/'
-                    },
-                    {
-                        text: 'Social',
-                        link: 'https://social.quarkjs.io/'
-                    },
-                    {
-                        text: 'GitHub',
-                        link: 'https://github.com/Nishkalkashyap/'
-                    }
-                    ]
+                    text: 'Social',
+                    link: 'https://social.quarkjs.io/'
+                },
+                {
+                    text: 'GitHub',
+                    link: 'https://github.com/Nishkalkashyap/'
                 }
-            ]
+                ]
+            }]
         },
         ],
         sidebar: {
@@ -102,6 +108,7 @@ module.exports = {
                 "nodejs.md"
             ],
             "/snippets/": [
+                "cloud-build.md",
                 "env-enc-file.md",
                 "install-nodejs.md"
             ]

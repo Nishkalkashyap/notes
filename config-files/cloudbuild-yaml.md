@@ -1,3 +1,10 @@
+---
+title : cloudbuild.yaml
+description : Cloud build config file.
+tags : ['config-files']
+---
+
+```yml
 steps:
 # Decrypt
 - name: gcr.io/cloud-builders/gcloud
@@ -17,3 +24,4 @@ steps:
 # build
 - name: 'gcr.io/cloud-builders/npm'
   args : ['run','cloud-build']
+```
