@@ -47,57 +47,43 @@ module.exports = {
             updatePopup: true
         },
         nav: [{
-                text: 'Guide',
-                link: '/guide/'
-            },
-            {
-                text: 'Tags',
-                items: Object.keys(AllTags).map((tag) => {
-                    return {
-                        text: tag,
-                        link: `/tags/${tag}.html`
-                    }
-                })
-            },
-            // {
-            //     text: 'API',
-            //     items: [{
-            //             text: 'References',
-            //             link: '/references/'
-            //         }, {
-            //             text: 'Structures',
-            //             link: '/structures/'
-            //         }
-            //     ]
-            // },
-            {
-                text: 'More',
-                items: [{
-                        text: 'Snippets',
-                        link: '/snippets/'
+            text: 'Guide',
+            link: '/guide/'
+        },
+        {
+            text: 'Snippets',
+            link: '/snippets/'
+        },
+        {
+            text: 'Tags',
+            items: Object.keys(AllTags).map((tag) => {
+                return {
+                    text: tag,
+                    link: `/tags/${tag}.html`
+                }
+            })
+        },
+        {
+            text: 'More',
+            items: [
+                {
+                    text: 'Links',
+                    items: [{
+                        text: 'Quark',
+                        link: 'https://quarkjs.io/'
                     },
                     {
-                        text: 'Links',
-                        items: [{
-                                text: 'Quark',
-                                link: 'https://quarkjs.io/'
-                            },
-                            {
-                                text: 'Social',
-                                link: 'https://social.quarkjs.io/'
-                            },
-                            {
-                                text: 'GitHub',
-                                link: 'https://github.com/Nishkalkashyap/'
-                            }
-                        ]
+                        text: 'Social',
+                        link: 'https://social.quarkjs.io/'
+                    },
+                    {
+                        text: 'GitHub',
+                        link: 'https://github.com/Nishkalkashyap/'
                     }
-                ]
-            },
-            // {
-            //     text: 'Download',
-            //     link: '/download/'
-            // }
+                    ]
+                }
+            ]
+        },
         ],
         sidebar: {
             "/guide/": [

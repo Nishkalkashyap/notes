@@ -26,21 +26,16 @@ module.exports.AllTags = {
     'google-cloud': {
         background: 'var(--text-color--dark)',
         color: '#ff5252',
-        description: `Arduino is an open-source hardware and software company, project and user community that designs and manufactures single-board microcontrollers.`
+        description: `Google Cloud Platform is a suite of public cloud computing services offered by Google. The platform includes a range of hosted services for compute, storage and application development that run on Google hardware.`
     },
     'firebase': {
         background: 'var(--text-color--dark)',
         color: '#651fff',
-        description: `Arduino is an open-source hardware and software company, project and user community that designs and manufactures single-board microcontrollers.`
+        description: `Firebase is Google's mobile platform that helps you quickly develop high-quality apps and grow your business.`
     },
     guide: {
         background: 'var(--text-color--dark)',
         color: '#e040fb',
-        description: `Arduino is an open-source hardware and software company, project and user community that designs and manufactures single-board microcontrollers.`
-    },
-    faq: {
-        background: 'var(--text-color--dark)',
-        color: '#651fff',
         description: `Arduino is an open-source hardware and software company, project and user community that designs and manufactures single-board microcontrollers.`
     }
 };
