@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "diy-mechatronics"
+  },
+  "targets": {
+    "diy-mechatronics": {
+      "hosting": {
+        "notes": [
+          "nishkal-notes"
+        ]
+      }
+    }
+  }
+}

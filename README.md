@@ -2,9 +2,9 @@
 # home: false
 home: true
 heroImage: /images/icon-svg.svg
-heroText: Quark
-tagline: Platform to develope internet of things.
-actionText: Get Started →
+heroText: Personal Notes
+tagline: Personal notes website.
+actionText: View Notes →
 actionLink: /guide/intro.html
 features:
 - title: Web Technologies
