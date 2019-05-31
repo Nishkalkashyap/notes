@@ -26,4 +26,8 @@ steps:
 # build
 - name: 'gcr.io/cloud-builders/npm'
   args : ['run','cloud-build']
+
+# deploy
+- name: 'gcr.io/cloud-builders/npm'
+  args : ['run','deploy-ci']
 ```
