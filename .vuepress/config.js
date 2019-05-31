@@ -47,55 +47,53 @@ module.exports = {
             updatePopup: true
         },
         nav: [{
-            text: 'Guide',
-            link: '/guide/'
-        },
-        {
-            text: 'Tags',
-            items: Object.keys(AllTags).map((tag) => {
-                return {
-                    text: tag,
-                    link: `/tags/${tag}.html`
-                }
-            })
-        },
-        // {
-        //     text: 'API',
-        //     items: [{
-        //             text: 'References',
-        //             link: '/references/'
-        //         }, {
-        //             text: 'Structures',
-        //             link: '/structures/'
-        //         }
-        //     ]
-        // },
-        {
-            text: 'More',
-            items: [
-                {
-                    text: 'Snippets',
-                    link: '/snippets/'
-                },
-                {
-                    text: 'Links',
-                    items: [
-                        {
-                            text: 'Quark',
-                            link: 'https://quarkjs.io/'
-                        },
-                        {
-                            text: 'Social',
-                            link: 'https://social.quarkjs.io/'
-                        },
-                        {
-                            text: 'GitHub',
-                            link: 'https://github.com/Nishkalkashyap/'
-                        }
-                    ]
-                }
-            ]
-        },
+                text: 'Guide',
+                link: '/guide/'
+            },
+            {
+                text: 'Tags',
+                items: Object.keys(AllTags).map((tag) => {
+                    return {
+                        text: tag,
+                        link: `/tags/${tag}.html`
+                    }
+                })
+            },
+            // {
+            //     text: 'API',
+            //     items: [{
+            //             text: 'References',
+            //             link: '/references/'
+            //         }, {
+            //             text: 'Structures',
+            //             link: '/structures/'
+            //         }
+            //     ]
+            // },
+            {
+                text: 'More',
+                items: [{
+                        text: 'Snippets',
+                        link: '/snippets/'
+                    },
+                    {
+                        text: 'Links',
+                        items: [{
+                                text: 'Quark',
+                                link: 'https://quarkjs.io/'
+                            },
+                            {
+                                text: 'Social',
+                                link: 'https://social.quarkjs.io/'
+                            },
+                            {
+                                text: 'GitHub',
+                                link: 'https://github.com/Nishkalkashyap/'
+                            }
+                        ]
+                    }
+                ]
+            },
             // {
             //     text: 'Download',
             //     link: '/download/'
@@ -106,6 +104,8 @@ module.exports = {
                 "getting-started.md"
             ],
             "/tags/": [
+                "firebase.md",
+                "google-cloud.md",
                 "api.md",
                 "faq.md",
                 "guide.md",
@@ -116,6 +116,7 @@ module.exports = {
                 "nodejs.md"
             ],
             "/snippets/": [
+                "env-enc-file.md",
                 "install-nodejs.md"
             ]
         }

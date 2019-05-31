@@ -23,12 +23,12 @@ module.exports.AllTags = {
 
 
 
-    structures: {
+    'google-cloud': {
         background: 'var(--text-color--dark)',
         color: '#ff5252',
         description: `Arduino is an open-source hardware and software company, project and user community that designs and manufactures single-board microcontrollers.`
     },
-    api: {
+    'firebase': {
         background: 'var(--text-color--dark)',
         color: '#651fff',
         description: `Arduino is an open-source hardware and software company, project and user community that designs and manufactures single-board microcontrollers.`
