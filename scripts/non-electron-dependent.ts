@@ -129,7 +129,7 @@ async function updatePrimaryColor() {
 
     //can be rgb
     // const accentColor = '#ff5252';//red
-    // const accentColor = '#3880ff';//blue
+    const accentColor = '#3880ff';//blue
     // const accentColor = '#3b5bdb';//purple
     // const accentColor = '#ffce00';//ionic-warning
     // const accentColor = '#10dc60';//green
@@ -138,7 +138,7 @@ async function updatePrimaryColor() {
     // const accentColor = '#09c372';//fireship green
     // const accentColor = '#fa7c3b';//fireship orange
     // const accentColor = '#020814';//black
-    const accentColor = '#5851ff';//stenciljs purple
+    // const accentColor = '#5851ff';//stenciljs purple
 
     const overrideFilePath = Path.resolve('./.vuepress/override.styl');
     const svgFilePath = Path.resolve(`./.vuepress/public/images/icon-svg.svg`);
