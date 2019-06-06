@@ -95,6 +95,8 @@ module.exports = {
         ],
         sidebar: {
             "/config-files/": [
+                "gitignore.md",
+                "travis-firebase-hosting.md",
                 "travis-github-pages.md",
                 "tsconfig-json.md",
                 "cloudbuild-yaml.md"
@@ -114,7 +116,8 @@ module.exports = {
                 "nodejs.md"
             ],
             "/snippets/": [
-                "github-pages.md",
+                "travis-firebase.md",
+                "travis-github-pages.md",
                 "cloud-build.md"
             ],
             "/all/": [
