@@ -29,4 +29,11 @@ e.g.
 
 #### 4. Copy base .travis.yml fron [here](/config-files/travis-github-pages.md)
 
-#### 5. Push code to repo.
+#### 5. Add A records of custom domain like so.
+
+| Type | Name        | Value           |
+| ---- | ----------- | --------------- |
+| A    | [subdomain] | 185.199.108.153 |
+| A    | [subdomain] | 185.199.109.153 |
+| A    | [subdomain] | 185.199.110.153 |
+| A    | [subdomain] | 185.199.111.153 |
