@@ -1,28 +1,19 @@
-module.exports.AllTags = {
-// export const AllTags = {
+exports.AllTags = reverse({
     javascript: {
         background: 'var(--text-color--dark)',
-        color: 'var(--ion-color-warning)',
+        color: '#f0db4f',
         description: `JavaScript (JS) is a lightweight interpreted or just-in-time compiled programming language.`
     },
     typescript: {
         background: 'var(--text-color--dark)',
-        color: 'var(--ion-color-primary)',
+        color: '#2775c3',
         description: `TypeScript is an open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript.`
     },
     nodejs: {
         background: 'var(--text-color--dark)',
-        color: 'var(--ion-color-success)',
+        color: '#90c53f',
         description: `Node.js is an open-source, cross-platform JavaScript run-time environment that executes JavaScript code outside of a browser.`
     },
-    arduino: {
-        background: 'var(--text-color--dark)',
-        color: '#7044ff',
-        description: `Arduino is an open-source hardware and software company, project and user community that designs and manufactures single-board microcontrollers.`
-    },
-
-
-
     'google-cloud': {
         background: 'var(--text-color--dark)',
         color: '#ff5252',
@@ -43,4 +34,23 @@ module.exports.AllTags = {
         color: '#39aa56',
         description: `Travis CI is a hosted continuous integration service used to build and test software projects hosted at GitHub.`
     }
-};
+});
+
+function reverse(tags) {
+    // Object.keys(tags).map((tag) => {
+    //     const background = tags[tag].background;
+    //     const color = tags[tag].color;
+
+    //     tags[tag].background = color;
+    //     tags[tag].color = background;
+    // });
+
+    for (let tag in tags) {
+        const background = tags[tag].background;
+        const color = tags[tag].color;
+
+        tags[tag].background = color;
+        tags[tag].color = background;
+    }
+    return tags;
+}

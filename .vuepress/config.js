@@ -53,6 +53,9 @@ module.exports = {
             updatePopup: true
         },
         nav: [{
+                text: 'All Docs',
+                link: '/all/'
+            }, {
                 text: 'Snippets',
                 link: '/snippets/'
             },
@@ -113,6 +116,9 @@ module.exports = {
             "/snippets/": [
                 "github-pages.md",
                 "cloud-build.md"
+            ],
+            "/all/": [
+                ""
             ]
         }
     },

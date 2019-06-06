@@ -19,6 +19,7 @@ const TAGS_BASE_PATH = './tags';
     createSidebars(sidebars);
     createReadmeFiles(readmefiles);
     updatePrimaryColor();
+    generateAllDocsPage();
 })().catch(console.error);
 
 
@@ -182,12 +183,72 @@ function createSidebars(paths: string[]) {
     });
 
     fs.readFile('./.vuepress/config.js').then((file) => {
-        const str = String().concat('sidebar:', JSON.stringify(obj).replace(/(:|,|\[)/g, '$1\n'));
+        const str = String().concat('sidebar:', JSON.stringify(Object.assign(initialObject, obj)).replace(/(:|,|\[)/g, '$1\n'));
         const match = file.toString().replace(/sidebar:(.|\n|\s|{)+?}/, str);
         fs.writeFileSync('./.vuepress/config.js', beautify(match));
     }).catch((err) => {
         console.log(err);
     });
+}
+
+function generateAllDocsPage() {
+
+    const folders = sidebars.filter((val) => {
+        return !val.match(/(tags|all)/);
+    });
+
+    let str = ``;
+    str = str.concat(`---`, '\n');
+    str = str.concat(`description : All docs on one page.`, '\n');
+    str = str.concat(`author : nishkal`, '\n');
+    str = str.concat(`tags : []`, '\n');
+    str = str.concat(`sidebarDepth: 4`, '\n');
+    str = str.concat(`---`, '\n');
+
+    str = str.concat(`\n# All Docs\n`);
+
+    folders.map((folder) => {
+        str = str.concat('\n', `## ${caps(folder)}`, '\n');
+
+        let files = fs.readdirSync(folder).filter((val) => !val.includes('README.md'));
+
+        const initialObject: ISidebarObject = JSON.parse(JSON.stringify(themeConfig.sidebar));
+        files = files.sort((a, b) => {
+            return initialObject[`/${folder}/`].indexOf(a) - initialObject[`/${folder}/`].indexOf(b)
+        });
+
+        files.map((file) => {
+            const frontmatter = getFrontmatterFromPath(Path.join(folder, file));
+            let data = fs.readFileSync(Path.join(folder, file)).toString();
+
+            data = data
+                .replace(/---([\s\S\n]+?)---/, '')
+                .replace(/(#.*?)\s/g, '$1## ')
+                .replace(/\[\[toc\]\]/g, '');
+
+            //set heading
+            const regex = /[\s\n]#{3}\s(\w+)/;
+            const match = data.match(regex);
+            if (match) {
+                data = data.replace(regex, '### $1');
+            } else {
+                data = `\n\n### ${file.replace('.md', '')}\n\n`.concat(data);
+            }
+
+            if (frontmatter) {
+                data = data.replace(/<Header\/>/g, `<Header label="${frontmatter.description}" />`)
+            }
+            str = str.concat(data, '\n', '________', '\n\n');
+        });
+    });
+
+    fs.ensureFileSync('./all/README.md');
+    fs.writeFileSync('./all/README.md', str);
+}
+
+function caps(str: string) {
+    str = str[0].toUpperCase() + str.substr(1, str.length);
+    return str;
 }
 
 
