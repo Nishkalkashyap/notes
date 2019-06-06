@@ -9,11 +9,7 @@
     "build": "npm run tags && vuepress build",
     "test": "npm run check && npm run build",
     "start": "npm run tags && vuepress dev -p 80",
-    "cloud-build": "npm run tags && vuepress build",
-    "deploy-ci": "firebase deploy --token \"$FIREBASE_TOKEN\"",
-    "bad": "npm run build && firebase deploy",
-    "server": "cd ./.vuepress/dist && http-server",
-    "deploy": "gh-pages -d ./.vuepress/dist"
+    "server": "cd ./.vuepress/dist && http-server"
   },
   "keywords": [
     "quark"

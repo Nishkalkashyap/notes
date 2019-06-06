@@ -19,7 +19,7 @@ install:
   - npm install
 
 script:
-  - npm run cloud-build
+  - npm run build
 
 deploy:
   local_dir: ./.vuepress/dist
