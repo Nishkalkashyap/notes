@@ -9,6 +9,8 @@ sidebar : false
 
 <MetaCard link="/config-files/cloudbuild-yaml.html" ></MetaCard>
 
+<MetaCard link="/config-files/travis-github-pages.html" ></MetaCard>
+
 <MetaCard link="/config-files/tsconfig-json.html" ></MetaCard>
 
 </div>

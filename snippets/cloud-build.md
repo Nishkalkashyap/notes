@@ -12,11 +12,11 @@ tags : ['google-cloud', 'firebase']
 View on fireship: [Link](https://fireship.io/lessons/ci-cd-with-google-cloud-build/)
 !!!
 
-### 1. Goto [Build Page](https://console.cloud.google.com/cloud-build/builds)
+#### 1. Goto [Build Page](https://console.cloud.google.com/cloud-build/builds)
 
-### 2. Go to triggers in the sidebar and select trigger.
+#### 2. Go to triggers in the sidebar and select trigger.
 
-### 3. Setup local dev environment.
+#### 3. Setup local dev environment.
 
 1. Add the .env file with all the environment variables.
 

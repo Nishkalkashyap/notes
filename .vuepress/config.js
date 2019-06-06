@@ -92,10 +92,12 @@ module.exports = {
         ],
         sidebar: {
             "/config-files/": [
+                "travis-github-pages.md",
                 "tsconfig-json.md",
                 "cloudbuild-yaml.md"
             ],
             "/tags/": [
+                "travis.md",
                 "config-files.md",
                 "firebase.md",
                 "google-cloud.md",
@@ -109,8 +111,8 @@ module.exports = {
                 "nodejs.md"
             ],
             "/snippets/": [
-                "cloud-build.md",
-                "install-nodejs.md"
+                "github-pages.md",
+                "cloud-build.md"
             ]
         }
     },

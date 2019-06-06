@@ -1,10 +1,10 @@
 ---
 title : travis-github-pages.yaml
-description : Travis github pages config.
-tags : ['config-files']
+description : Travis github pages base config.
+tags : ['config-files', 'travis']
 ---
 
-# travis.yml
+# .travis.yml
 
 ```yml
 sudo: required
@@ -31,11 +31,11 @@ script:
   - npm run build
 
 deploy:
-  local_dir: ./.vuepress/dist
+  local_dir: [dist-dir] # e.g. local_dir: ./.vuepress/dist
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
-  fqdn: notes.nishkal.in
+  fqdn: [subdomain].[domain].[ext] #e.g. fqdn: notes.nishkal.in
   on:
     branch: master
 ```
