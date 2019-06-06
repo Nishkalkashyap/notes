@@ -7,6 +7,7 @@ module.exports = {
     desctiption: 'Personal website for personal notes',
     ga: 'UA-112064718-2',
     serviceWorker: true,
+    base: '/notes/',
     head: [
         [
             'link', {

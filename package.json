@@ -12,12 +12,14 @@
     "cloud-build": "npm run tags && vuepress build",
     "deploy-ci": "firebase deploy --token \"$FIREBASE_TOKEN\"",
     "bad": "npm run build && firebase deploy",
-    "server": "cd ./.vuepress/dist && http-server"
+    "server": "cd ./.vuepress/dist && http-server",
+    "deploy": "gh-pages -d ./.vuepress/dist"
   },
   "keywords": [
     "quark"
   ],
   "author": "Nishkal Kashyap",
+  "homepage": "https://nishkalkashyap.github.io/notes",
   "license": "MIT",
   "devDependencies": {
     "@types/fs-extra": "^5.0.5",
@@ -31,6 +33,7 @@
     "css-loader": "^2.1.0",
     "firebase-tools": "^6.7.1",
     "fs-extra": "^7.0.1",
+    "gh-pages": "^2.0.1",
     "markdown-it-html5-embed": "^1.0.0",
     "node-sass": "^4.12.0",
     "open": "^6.1.0",
