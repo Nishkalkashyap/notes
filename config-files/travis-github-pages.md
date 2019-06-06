@@ -4,7 +4,7 @@ description : Travis github pages config.
 tags : ['config-files']
 ---
 
-# cloudbuild.yml
+# travis.yml
 
 ```yml
 sudo: required
