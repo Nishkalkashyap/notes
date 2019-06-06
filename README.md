@@ -16,3 +16,6 @@ features:
 pageClass: landing-page
 footer: MIT Licensed | Copyright © 2019-present Nishkal Kashyap
 ---
+
+### Build Status
+[![Build Status](https://travis-ci.org/Nishkalkashyap/notes.svg?branch=master)](https://travis-ci.org/Nishkalkashyap/notes)

@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "tags": "ts-node scripts/non-electron-dependent.ts",
-    "check": "ts-node ./scripts/check-files.ts",
+    "test": "ts-node ./scripts/check-files.ts",
     "build": "npm run tags && vuepress build",
-    "test": "npm run check && npm run build",
     "start": "npm run tags && vuepress dev -p 80",
     "server": "cd ./.vuepress/dist && http-server"
   },

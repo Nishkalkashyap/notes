@@ -1,3 +1,12 @@
+---
+title : travis-github-pages.yaml
+description : Travis github pages config.
+tags : ['config-files']
+---
+
+# cloudbuild.yml
+
+```yml
 sudo: required
 dist: trusty
 
@@ -29,3 +38,4 @@ deploy:
   fqdn: notes.nishkal.in
   on:
     branch: master
+```

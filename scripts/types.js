@@ -37,5 +37,10 @@ module.exports.AllTags = {
         background: 'var(--text-color--dark)',
         color: '#e040fb',
         description: `Commonly used configuration files.`
+    },
+    'travis': {
+        background: 'var(--text-color--dark)',
+        color: '#39aa56',
+        description: `Travis CI is a hosted continuous integration service used to build and test software projects hosted at GitHub.`
     }
 };
