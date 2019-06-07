@@ -4,7 +4,7 @@ description : Travis github pages base config.
 tags : ['config-files', 'travis']
 ---
 
-# .travis.yml
+# .travis-github-pages.yaml
 
 ```yml
 sudo: required
@@ -13,6 +13,8 @@ dist: trusty
 language: node_js
 cache: 
   - npm
+  - directories:
+    - ./build
 
 notifications:
   email:

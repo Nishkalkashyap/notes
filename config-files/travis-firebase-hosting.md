@@ -4,7 +4,7 @@ description : Travis firebase hosting base config.
 tags : ['config-files', 'travis']
 ---
 
-# .travis.yml
+# .travis-firebase-hosting.yaml
 
 ```yml
 sudo: required
@@ -13,6 +13,8 @@ dist: trusty
 language: node_js
 cache: 
   - npm
+  - directories:
+    - ./build
 
 notifications:
   email:
