@@ -2,8 +2,8 @@
 # home: false
 home: true
 heroImage: /images/icon-svg.svg
-heroText: Personal Notes
-tagline: Personal website for personal notes. Mostly related to coding and stuff.!
+heroText: My Personal Notes
+tagline: Website for my personal notes. Mostly related to coding and stuff.!
 actionText: View Notes →
 actionLink: /snippets/
 features:
