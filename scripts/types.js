@@ -1,15 +1,15 @@
 exports.AllTags = reverse({
-    javascript: {
+    'javascript': {
         background: 'var(--text-color--dark)',
         color: '#f0db4f',
         description: `JavaScript (JS) is a lightweight interpreted or just-in-time compiled programming language.`
     },
-    typescript: {
+    'typescript': {
         background: 'var(--text-color--dark)',
         color: '#2775c3',
         description: `TypeScript is an open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript.`
     },
-    nodejs: {
+    'nodejs': {
         background: 'var(--text-color--dark)',
         color: '#90c53f',
         description: `Node.js is an open-source, cross-platform JavaScript run-time environment that executes JavaScript code outside of a browser.`
@@ -33,6 +33,11 @@ exports.AllTags = reverse({
         background: 'var(--text-color--dark)',
         color: '#39aa56',
         description: `Travis CI is a hosted continuous integration service used to build and test software projects hosted at GitHub.`
+    },
+    'appveyor': {
+        background: 'var(--text-color)',
+        color: '#322525',
+        description: `Continuous Integration solution for Windows and Linux. Build, test, deploy your apps faster, on any platform.`
     }
 });
 

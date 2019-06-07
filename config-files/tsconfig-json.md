@@ -1,7 +1,7 @@
 ---
 title : tsconfig.json
 description : tsconfig file.
-tags : ['config-files']
+tags : ['config-files', 'typescript']
 ---
 
 # tsconfig.json
@@ -12,7 +12,7 @@ tags : ['config-files']
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "importHelpers": true,
-    "outDir": "./dist/out-tsc",
+    "outDir": "./dist",
     "sourceMap": false,
     "declaration": false,
     "moduleResolution": "node",
