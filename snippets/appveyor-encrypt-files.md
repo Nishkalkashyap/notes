@@ -34,14 +34,14 @@ appveyor-tools\secure-file -encrypt C:\path-to\filename-to-encrypt.ext -secret M
 Encrypted file will be saved in the same directory as the input file, but with the `.enc` extension added. You can optionally specify output file name with the `-out` parameter.
 
 #### 2. Decrypting files during an AppVeyor build
-Put the “secret” value to the project environment variables on the Environment tab of the project settings or in the `appveyor.yml` as a [secure variable](https://ci.appveyor.com/tools/encrypt):
+* Put the “secret” value to the project environment variables on the Environment tab of the project settings or in the `appveyor.yml` as a [secure variable](https://ci.appveyor.com/tools/encrypt):
 
 ```yaml
 environment:
   my_secret:
     secure: BSNfEghh/l4KAC3jAcwAjgTibl6UHcZ08ppSFBieQ8E=
 ```
-To decrypt the file, add these lines to the `install` section of your project config:
+* To decrypt the file, add these lines to the `install` section of your project config:
 ```yaml
 install:
   - ps: iex ((New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/appveyor/secure-file/master/install.ps1'))
