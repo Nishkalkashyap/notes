@@ -6,8 +6,6 @@ tags : ['google-cloud', 'firebase']
 
 # Setup cloud build
 
-[[toc]]
-
 !!! note Note
 View on fireship: [Link](https://fireship.io/lessons/ci-cd-with-google-cloud-build/)
 !!!

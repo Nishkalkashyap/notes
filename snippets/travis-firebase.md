@@ -6,8 +6,6 @@ tags : ['travis']
 
 # Setup travis
 
-[[toc]]
-
 !!! note Note
 View travis-ci official deployment guide: [Link](https://docs.travis-ci.com/user/deployment/firebase/)
 !!!

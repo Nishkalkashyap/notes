@@ -6,8 +6,6 @@ tags : ['travis']
 
 # Setup travis
 
-[[toc]]
-
 !!! note Note
 View on youtube: [Link](https://www.youtube.com/watch?v=SKXkC4SqtRk)
 

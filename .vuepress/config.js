@@ -95,6 +95,8 @@ module.exports = {
         ],
         sidebar: {
             "/config-files/": [
+                "appveyor.md",
+                "travis.github.release.md",
                 "gitignore.md",
                 "travis-firebase-hosting.md",
                 "travis-github-pages.md",
@@ -102,6 +104,7 @@ module.exports = {
                 "cloudbuild-yaml.md"
             ],
             "/tags/": [
+                "appveyor.md",
                 "travis.md",
                 "config-files.md",
                 "firebase.md",
@@ -116,6 +119,7 @@ module.exports = {
                 "nodejs.md"
             ],
             "/snippets/": [
+                "appveyor-encrypt-files.md",
                 "travis-firebase.md",
                 "travis-github-pages.md",
                 "cloud-build.md"
