@@ -38,6 +38,11 @@ exports.AllTags = reverse({
         background: 'var(--text-color)',
         color: '#322525',
         description: `Continuous Integration solution for Windows and Linux. Build, test, deploy your apps faster, on any platform.`
+    },
+    'email-replies': {
+        background: 'var(--text-color)',
+        color: '#3880ff',
+        description: `Replies to emails.`
     }
 });
 

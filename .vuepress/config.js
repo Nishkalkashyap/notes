@@ -104,6 +104,7 @@ module.exports = {
                 "cloudbuild-yaml.md"
             ],
             "/tags/": [
+                "email-replies.md",
                 "appveyor.md",
                 "travis.md",
                 "config-files.md",
@@ -126,6 +127,9 @@ module.exports = {
             ],
             "/all/": [
                 ""
+            ],
+            "/replies/": [
+                "manu-email-1.md"
             ]
         }
     },
