@@ -31,7 +31,7 @@ Also, Quark is fully extensible (unlike MATLAB). You can install (almost) any of
 
 ![Error Example 1](/images/error-example-1.png)
 
-####### Infact you can catch errors while typing. The inbuilt language support constantly checks for errors in a seperate process. So ypu're aware of errors in your code even before compiling your code.
+###### Infact you can catch errors while typing. The inbuilt language support constantly checks for errors in a seperate process. So ypu're aware of errors in your code even before compiling your code.
 ![Error Example 2](/images/error-example-2.png)
 
 ###### 3. _`I wish to provide you with software advice. "It is not about making, it's about maintaining".`_
@@ -69,7 +69,7 @@ _____
 
 _____
 
-####### Thanks and regards
+###### Thanks and regards
 #### _Nishkal_
 
 
