@@ -17,11 +17,11 @@ I've asked many people before for a review, and this is the first time I'm getti
 * It abstracts away the complexity of setting up a project environment every time you start a new project. 
 * Imaging configuring python environment on your PC every time you start a python project. Doesn't makes sense right?
 
-::: not
+!!! note Sidenote
 Currently there are very less `graphical user interface` runtime environments. Exceptions being things like MATLAB, and jupyter notebook. Which have there pros and cons. Quark aims to fill that void by providing `HTML, CSS and Javascript` powered GUI's, since this stack is the undisputed king for frontend development.
 
 Also, Quark is fully extensible (unlike MATLAB). You can install (almost) any of the 900,000 packages on the [npm repository](https://npmjs.com) and use the packages you're already fimiliar with. You don't need to lean anything new if you're already fimiliar with the stack.
-:::
+!!!
 
 ###### 2. _`Since Quark aims to be an IDE, it would make complete sense to integrate a debugger to debug large codebases `_
 * Yes, it makes sense for _large codebases_. But admittedly Quark does not intends to cater for _large codebase_ projects. 
