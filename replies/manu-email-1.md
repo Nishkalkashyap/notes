@@ -29,6 +29,11 @@ Also, Quark is fully extensible (unlike MATLAB). You can install (almost) any of
 * Every project on that page was made from 80 to 300 lines of code. And thats all.
 * Also, if you build project with typescript _(reccomended)_ instead of javascript. You can catch all the errors at compile time, instead of runtime. So that can somewhat accommodate for the lack of debugger.
 
+![Error Example 1](/images/error-example-1.png)
+
+###### Infact you can catch errors while typing. The inbuilt language support constantly checks for errors in a seperate process. So ypu're aware of errors in your code even before compiling your code.
+![Error Example 2](/images/error-example-2.png)
+
 ##### 3. _`I wish to provide you with software advice. "It is not about making, it's about maintaining".`_
 * **Agreed!** That is why after developing the initial build of Quark. I took another month or so to refactoring the code. It was a pain in the _ass_ but was worth it. 
 * As far as the maintainence goes, Quark uses a Continuous delivery pipeline, that builds the code, tests it and if required then deploys a new release. The entire process is automated in a single commad. `git commit -m 'new-release'`. Thats all.
@@ -51,8 +56,18 @@ For windows builds: [Link](https://ci.appveyor.com/project/Nishkalkashyap/quark-
 ##### 5. _`Keep me posted about new developments.`_
 * Sure.
 
+_____
+
+
 ### A few of my own Questions:
 
 ##### 1. _`Did you find documentation somewhat readable? If so, I was planning to make the project public this week. It'll be good to have a feedback on that. (Ofcourse I'll add a good landing page before that.) `_
+
+##### 2. _`Would you prefer javascript or typescript for for the "system resource monitor project" ?`_
+
+_____
+
+###### Thanks and regards
+#### _Nishkal_
 
 
