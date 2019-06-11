@@ -35,12 +35,12 @@ exports.AllTags = reverse({
         description: `Travis CI is a hosted continuous integration service used to build and test software projects hosted at GitHub.`
     },
     'appveyor': {
-        background: 'var(--text-color)',
+        background: '#ffffff',
         color: '#322525',
         description: `Continuous Integration solution for Windows and Linux. Build, test, deploy your apps faster, on any platform.`
     },
     'email-replies': {
-        background: 'var(--text-color)',
+        background: 'var(--text-color--dark)',
         color: '#3880ff',
         description: `Replies to emails.`
     }
