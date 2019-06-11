@@ -7,6 +7,6 @@ sidebar : false
 
 <div class="tags-container">
 
-<MetaCard link="/replies/manu-email-1.html" ></MetaCard>
+<MetaCard link="/replies/email-1.html" ></MetaCard>
 
 </div>

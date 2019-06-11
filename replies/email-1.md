@@ -1,12 +1,12 @@
 ---
-title : Manu email reply (1)
+# title : Manu email reply (1)
 description : Reply to email.
 tags : ['email-replies']
 pageClass: download-page
 ---
 
 # Email response
-
+<!-- 
 ###### Hey MannU, thanks for taking time to review the Quark software. _**It really means a lot**_ 😭
 I've asked many people before for a review, and this is the first time I'm getting any response, let alone such an in-depth response. So thank you for that. 😄
 
@@ -72,4 +72,4 @@ _____
 ###### Thanks and regards
 #### _Nishkal_
 
-
+ -->

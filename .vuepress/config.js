@@ -129,7 +129,7 @@ module.exports = {
                 ""
             ],
             "/replies/": [
-                "manu-email-1.md"
+                "email-1.md"
             ]
         }
     },
