@@ -13,18 +13,18 @@ tags : ['config-files', 'typescript']
     "allowSyntheticDefaultImports": true,
     "importHelpers": true,
     "outDir": "./dist",
-    "sourceMap": false,
+    "inlineSourceMap": true,
     "declaration": false,
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "target": "es5",
     "lib": [
-      "es2018",
+      "es2017",
       "dom"
     ],
     "baseUrl": "./",
-    "module": "esnext",
+    "module": "umd",
     "types": [
       "node"
     ],
@@ -35,13 +35,12 @@ tags : ['config-files', 'typescript']
     "skipLibCheck": true,
     "allowJs": true
   },
-  "include": [
+    "include": [
     "src/*",
     "worker/*"
   ],
   "exclude": [
-    "**/node_modules/**/*",
-    "scripts",
+    "**/node_modules/*",
   ]
 }
 ```
