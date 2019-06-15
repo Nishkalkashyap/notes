@@ -31,7 +31,15 @@ e.g.
 
 | Type | Name        | Value           |
 | ---- | ----------- | --------------- |
-| A    | [subdomain] | 185.199.108.153 |
-| A    | [subdomain] | 185.199.109.153 |
-| A    | [subdomain] | 185.199.110.153 |
-| A    | [subdomain] | 185.199.111.153 |
+| A    | [domain] | 185.199.108.153 |
+| A    | [domain] | 185.199.109.153 |
+| A    | [domain] | 185.199.110.153 |
+| A    | [domain] | 185.199.111.153 |
+
+!!! warning Warning
+If using a subdomain. Instead of adding A records, add a single CNAME record. e.g.
+!!!
+
+| Type  | Name        | Value                        |
+| ----- | ----------- | ---------------------------- |
+| CNAME | [subdomain] | [github-user-name].github.io |

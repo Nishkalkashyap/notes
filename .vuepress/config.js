@@ -120,6 +120,7 @@ module.exports = {
                 "nodejs.md"
             ],
             "/snippets/": [
+                "travis-encrypt-files.md",
                 "appveyor-encrypt-files.md",
                 "travis-firebase.md",
                 "travis-github-pages.md",
