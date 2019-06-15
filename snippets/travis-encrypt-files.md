@@ -17,10 +17,16 @@ travis encrypt-file inputFilePath outputFilePath --add
 ```
 
 #### 2. Encrypting multiple files
+1. Adding files to a tar archive.
 ```bash
 # Where foo and bar are the files you want to encrypt.
 tar cvf secrets.tar foo bar
 travis encrypt-file secrets.tar --add
+```
+
+2. Extracting the tar archive
+```yml
+- tar xvf secrets.tar
 ```
 
 
