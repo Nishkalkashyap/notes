@@ -1,32 +1,30 @@
 sudo: required
 dist: trusty
-
 language: node_js
-cache: 
-  - npm
-
+cache:
+- npm
 notifications:
   email:
     on_success: never
     on_failure: change
-
+  slack:
+    on_success: always
+    on_failure: always
+    secure: gH+Y+zsQM5rYe8mncFwptYaU+gjk7VQv3jSMjlQV/JYnj1ydb+hG7LKjltX3Sp+PX27VxSSQJ9/I7O5AAvPn887aZ4ZPHOcsjseAZ4oHyRc64ftrZxhfZRM45pWe1IzbaCi5xjiVQKqRHypW1blvPV/7Ug/uHrJ8E0dJ0Y3qYAT9yNwKFS7cQ73z6XxZLNWOTBlAk901yAhQNjfAW62Enz8SW2joKrWHuXEDBga9rqbA83QIpeqFPFfQfsyBPXQoiruFCS/0PmdhVNkF6FuaJXkj1ZfuNMR5MmSWotxxvCXZZN9iLLh50+gCVeIWPGaWkyLn89KwH76TZYDwPn1GbScRhJDxBaFQGptpBrz5nZUz5MUKFHiO0/p55ay4e7Jj+FapPUwDTEtoG22yqvS+YG963ZKzhBwIJCOWt/46PufmcUNVYdyKcqSq9HwVhsflnSGAC+MBxrZAjUiv/X9Xs0k1EuCGTrrFwWyaS22jM24dLBORKXbE/IdBhWo2tsY0IXDXREnpKLu+eka64bH0eJB01oLoG3P96Bc4dDdL21u3KBTUawBzXwVGSuhYHGZz/V+mr0MnDQhkqY7vHB7ak9wq3eWCtevFW+/pQKpysDh2VpDhtEKBC0STTesvhXq42dFErW/pW6dwc/JMGp7A5bwk0Jr9mFWp7+v7oajMeIc=
 matrix:
   include:
-    - os: linux
-      node_js: lts/*
-
+  - os: linux
+    node_js: lts/*
 install:
-  - npm install
-
+- npm install
 script:
-  - npm run build
-  - npm run post-build
-
+- npm run build
+- npm run post-build
 deploy:
-  local_dir: ./.vuepress/dist
+  local_dir: "./.vuepress/dist"
   provider: pages
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN
+  github_token: "$GITHUB_TOKEN"
   fqdn: notes.nishkal.in
   on:
     branch: master
