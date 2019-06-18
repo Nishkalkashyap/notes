@@ -120,6 +120,8 @@ module.exports = {
                 "nodejs.md"
             ],
             "/snippets/": [
+                "firebase-environment.config.md",
+                "open-ssl-encrypt-decrypt.md",
                 "travis-encrypt-files.md",
                 "appveyor-encrypt-files.md",
                 "travis-firebase.md",
