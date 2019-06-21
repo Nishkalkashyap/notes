@@ -43,6 +43,11 @@ exports.AllTags = reverse({
         background: 'var(--text-color--dark)',
         color: '#3880ff',
         description: `Replies to emails.`
+    },
+    'random': {
+        background: 'var(--text-color--dark)',
+        color: '#fec042',
+        description: `Random`
     }
 });
 
