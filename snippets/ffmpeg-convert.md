@@ -18,4 +18,7 @@ ffmpeg -i 'input.mp4' -vf "setpts=0.5*PTS" -an './output.mp4'
 
 #framerate
 ffmpeg -i 'input.mp4' -r 24 -an './output.mp4'
+
+#framerate
+ffmpeg -i 'input.mp4' -ss 01:23:45 -vframes 1 './output.jpg'
 ```
