@@ -26,7 +26,8 @@ travis encrypt-file secrets.tar --add
 
 2. Extracting the tar archive
 ```yml
-- tar xvf secrets.tar
+//-C is for CWD
+- tar xvf secrets.tar -C ./out-dir
 ```
 
 
