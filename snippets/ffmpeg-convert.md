@@ -13,6 +13,9 @@ ffmpeg -i 'input.mp4' -vf "scale=1920:-1" './output.mp4'
 #changing bitrate
 ffmpeg -i 'input.mp4' -b:v "1000K"  './output.mp4'
 
+#bitrate alternative (crf may vary from 18-24 i.e. high quality to low quality);
+ffmpeg -i 'input.mp4' -vcodec libx264 -crf 24  './output.mp4'
+
 #video speed (take note of -an flag. Removed audio)
 ffmpeg -i 'input.mp4' -vf "setpts=0.5*PTS" -an './output.mp4'
 
