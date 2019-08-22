@@ -22,6 +22,9 @@ ffmpeg -i 'input.mp4' -r 24 -an './output.mp4'
 #screenshot
 ffmpeg -i 'input.mp4' -ss 01:23:45 -vframes 1 './output.jpg'
 
+#override: take note of -y flag
+ffmpeg -y -i 'input.mp4' './output.mp4'
+
 #video concat
 # ref: https://stackoverflow.com/questions/7333232/how-to-concatenate-two-mp4-files-using-ffmpeg#11175851
 cat mylist.txt
