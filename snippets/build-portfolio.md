@@ -26,7 +26,7 @@ git clone https://github.com/Nishkalkashyap/portfolio.git
 ```
 
 #### 4. Change the terminal directory
-Run the followinf command
+Run the following command
 ```sh
 cd portfolio
 ```
@@ -36,4 +36,17 @@ Run the following command
 ```sh
 npm install
 ```
+
+#### 6. Start the local server to begin editing the project
+1. Run the following command
+```sh
+npm run start
+```
+
+2. Open your web-browser and type ```http://localhost``` to see the website.
+
+#### 7. Start editing file
+1. Open the file in local directory ```/.vuepress/components/Resume.vue```
+2. Edit the file and save the changes
+3. Observe the changes in the website
 
