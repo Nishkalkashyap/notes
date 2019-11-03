@@ -104,6 +104,7 @@ module.exports = {
                 "cloudbuild-yaml.md"
             ],
             "/tags/": [
+                "random.md",
                 "email-replies.md",
                 "appveyor.md",
                 "travis.md",
@@ -120,6 +121,10 @@ module.exports = {
                 "nodejs.md"
             ],
             "/snippets/": [
+                "build-portfolio.md",
+                "ffmpeg-convert.md",
+                "news-mentions.md",
+                "setup-vpn-server.md",
                 "firebase-environment.config.md",
                 "open-ssl-encrypt-decrypt.md",
                 "travis-encrypt-files.md",
