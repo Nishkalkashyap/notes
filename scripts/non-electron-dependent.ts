@@ -9,7 +9,7 @@ import * as sharp from 'sharp';
 
 var beautify = require('js-beautify').js;
 
-const sidebars = ['config-files', 'tags', 'snippets', 'replies', 'edfora'];
+const sidebars = ['config-files', 'tags', 'snippets', 'replies'];
 const readmefiles = ['config-files', 'snippets', 'replies', 'edfora'];
 
 const TAGS_BASE_PATH = './tags';
