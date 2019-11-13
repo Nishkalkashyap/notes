@@ -16,7 +16,8 @@ tags : []
 
 ### Performance
    1. Use angulars AOT compiled build instead of JIT build. Size difference observed `(79.9mb v/s 84.5mb)`
-### **Code maintainability**
+   2. Use separate module for individual cards.
+### Code maintainability
    1. Pretty format code, (use prettier/ editor default formatter).
    2. Add `strict-type-checking`
    3. Add a working `README.md` file, with clear instructions on how to run/build the project
@@ -45,6 +46,6 @@ tags : []
         |    └─ service-2
         └─ dashboard.module.ts
         ```
-### **UI/UX bugs identified**
+### UI/UX bugs identified
    1. "Go To Onboarding" close button does not works.
    2. Not responsive, overflow-x but no scroll bar
