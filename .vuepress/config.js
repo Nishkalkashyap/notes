@@ -74,6 +74,10 @@ module.exports = {
                 // })
             },
             {
+                text: 'Edfora',
+                link: '/edfora/'
+            },
+            {
                 text: 'More',
                 items: [{
                     text: 'Links',
