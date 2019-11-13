@@ -49,6 +49,8 @@ tags : []
         ├─ services
         |    ├─ service-1
         |    └─ service-2
+        ├─ interfaces.ts
+        ├─ consts.ts
         └─ dashboard.module.ts
         ```
     6. Add a working `README.md` file, with clear instructions on how to run/build the project
