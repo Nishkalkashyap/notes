@@ -1,5 +1,5 @@
 ---
-title : Setup firebaes hosting with travis.
+title : Setup firebase hosting with travis.
 description : Setup firebase hosting with travis CI/CD pipeline.
 tags : ['travis']
 ---
