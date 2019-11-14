@@ -87,5 +87,6 @@ tags/
 snippets/README.md
 config-files/README.md
 all/README.md
+edfora/README.md
 
 .vuepress/public/g-images/

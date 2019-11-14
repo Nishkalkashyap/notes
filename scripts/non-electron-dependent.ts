@@ -3,13 +3,13 @@ import * as Path from 'path';
 import * as recc from 'recursive-readdir';
 import { AllTags } from './types';
 import { themeConfig } from '../.vuepress/config';
-import { IFrontmatterData, getFrontmatterFromPath, capitalize, Frontmatter } from './util';
+import { IFrontmatterData, getFrontmatterFromPath, capitalize } from './util';
 import { reccursiveIgnoreFunction } from './check-files';
 import * as sharp from 'sharp';
 
 var beautify = require('js-beautify').js;
 
-const sidebars = ['config-files', 'tags', 'snippets', 'replies'];
+const sidebars = ['config-files', 'tags', 'snippets', 'replies', 'edfora'];
 const readmefiles = ['config-files', 'snippets', 'replies', 'edfora'];
 
 const TAGS_BASE_PATH = './tags';
