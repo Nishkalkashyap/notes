@@ -143,7 +143,10 @@ module.exports = {
             "/replies/": [
                 "email-1.md"
             ],
-            "/edfora/": []
+            "/edfora/": [
+                "dashboard.md",
+                "implementing-cloudflare.md"
+            ]
         }
     },
     configureWebpack: (config) => {
