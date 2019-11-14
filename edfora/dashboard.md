@@ -65,9 +65,10 @@ tags : []
 #### Personal notes
 1. API endpoints
 2. Subscription thing - Subscribing to observables without unsubscribing _(this.sub in card components)_
-3. See bitbucker UI
+3. See bitbucket UI
 4. Using JQuery
 5. Add common class for card
 6. Work on images
 7. check `test-results` route in speed
 8. git pull upstream prod (remember to do this for your fork)
+9. Make common documentation website (tech team project)
