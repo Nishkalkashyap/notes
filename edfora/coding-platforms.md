@@ -15,6 +15,11 @@ tags : []
 !!!
 Share Code in Real-time with Developers, as simple as that! Supports video chat as well.
 
+### CodeSandbox
+!!! success This is a free software [Visit website](https://codesandbox.io)
+!!!
+Free software but buggy. Needs more testing. Could probably be best for our use case.
+
 ### CoderPad
 !!! warning This is a paid software [Visit website](https://coderpad.io)
 !!!
