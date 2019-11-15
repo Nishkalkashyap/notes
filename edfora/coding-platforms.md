@@ -8,17 +8,28 @@ tags : []
 
 [[toc]]
 
-## Platforms
-
 ### CodeShare
 !!! success This is a free software [Visit website](https://codeshare.io)
 !!!
-Share Code in Real-time with Developers, as simple as that! Supports video chat as well.
+Features
+* Real-time code sharing
+* Supports video chat
+* Decent code colorization
+
+### CollabEdit
+!!! success This is a free software [Visit website](http://collabedit.com)
+!!!
+Features
+* Real-time code sharing
+* Decent code colorization
+* (Not as good as CollabEdit)
 
 ### CodeSandbox
 !!! success This is a free software [Visit website](https://codesandbox.io)
 !!!
-Free software but buggy. Needs more testing. Could probably be best for our use case.
+Features
+* Free software but buggy. Needs more testing. Could probably be best for our use case
+* Code runtime environment
 
 ### CoderPad
 !!! warning This is a paid software [Visit website](https://coderpad.io)
@@ -41,7 +52,7 @@ Free software but buggy. Needs more testing. Could probably be best for our use 
 | Team    | $2996 for 4 months | 100 interviews / month && **CodeScreen** && **CodePair** |
 
 ###### CodePair
-CodePair lets you conduct real-time technical interviews and evaluate candidates' technical skills. You can engage with candidates from anywhere through live chat, audio, and video, all in one browser, enabling a fully interactive interview experience.
+CodePair lets you conduct real-time technical interviews and evaluate candidates' technical skills. You can engage with candidates from anywhere through live chat, audio, and video, all in one browser, enabling a fully interactive interview experience
 
 ###### CodeScreen
-CodeScreen lets you thoroughly evaluate candidates' actual coding skills and screen in great candidates. Create a challenge to assess the exact skill set that you’re hiring for, invite candidates to solve your challenges, and review scores.
+CodeScreen lets you thoroughly evaluate candidates' actual coding skills and screen in great candidates. Create a challenge to assess the exact skill set that you’re hiring for, invite candidates to solve your challenges, and review scores
