@@ -71,4 +71,6 @@ tags : []
 6. Work on images
 7. check `test-results` route in speed
 8. git pull upstream prod (remember to do this for your fork)
-9. Make common documentation website (tech team project)
+9. Make common documentation website (tech team project) **Super important**
+10. Make a question bank
+11. Define an interview format
