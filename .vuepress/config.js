@@ -144,6 +144,9 @@ module.exports = {
                 "email-1.md"
             ],
             "/edfora/": [
+                "coding-platforms.md",
+                "interview-questions.md",
+                "work.md",
                 "dashboard.md",
                 "implementing-cloudflare.md"
             ]
