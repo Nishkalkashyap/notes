@@ -1,6 +1,17 @@
+---
+title : Interview Questions
+description : Tech interview questions
+tags : []
+---
+
+# Interview Questions
+
+[[toc]]
+
 ### Tech-Question-1
 Write a function to recursively read a directory and print the list of all the files as an array.
 e.g.
+```
 .
 ├─ folder-1
 |    ├─ file-1
@@ -12,6 +23,7 @@ e.g.
 └─ file-5
 
 result : ['file-1', 'file-2', 'file-3', 'file-4', 'file-5']
+```
 
 
 Function signature:
