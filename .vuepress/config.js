@@ -144,6 +144,8 @@ module.exports = {
                 "email-1.md"
             ],
             "/edfora/": [
+                "candidates.md",
+                "notes.md",
                 "coding-platforms.md",
                 "interview-questions.md",
                 "work.md",
