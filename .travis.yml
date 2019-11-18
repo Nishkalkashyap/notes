@@ -16,8 +16,12 @@ matrix:
 install:
 - npm install
 script:
+- rm -rf "./.vuepress/dist"
 - npm run build
 - npm run post-build
+- ls -la "./.vuepress/dist"
+after_script:
+- rm -rf ""./.vuepress/dist/edfora"
 deploy:
   local_dir: "./.vuepress/dist"
   provider: pages
