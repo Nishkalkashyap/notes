@@ -1,10 +1,10 @@
 ---
-title : Coding interview
-description : Coding interview plan
+title : Coding Platforms
+description : Coding Platforms
 tags : []
 ---
 
-# Coding interview plan
+# Coding Platforms
 
 [[toc]]
 
