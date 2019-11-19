@@ -9,12 +9,12 @@ import * as sharp from 'sharp';
 
 var beautify = require('js-beautify').js;
 
-const sidebars = ['config-files', 'tags', 'snippets', 'replies'];
-const readmefiles = ['config-files', 'snippets', 'replies'];
+let sidebars = ['config-files', 'tags', 'snippets', 'replies'];
+let readmefiles = ['config-files', 'snippets', 'replies'];
 
 if (!process.env.CI) {
-    sidebars.concat('edfora');
-    readmefiles.concat('edfora');
+    sidebars = sidebars.concat('edfora');
+    readmefiles = readmefiles.concat('edfora');
 }
 
 const TAGS_BASE_PATH = './tags';
