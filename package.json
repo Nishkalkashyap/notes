@@ -8,6 +8,7 @@
     "test": "ts-node ./scripts/check-files.ts",
     "build": "npm run tags && vuepress build",
     "post-build": "ts-node ./scripts/create-site-map.ts && ts-node ./scripts/delete-edfora.ts",
+    "pre-build": "ts-node ./scripts/delete-edfora.ts",
     "start": "npm run tags && vuepress dev -p 80",
     "server": "cd ./.vuepress/dist && http-server"
   },
