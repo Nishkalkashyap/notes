@@ -25,3 +25,31 @@ tags : []
 * People working in a department, linkedIn profile e.t.c
 * How to take leaves
 * Add links/hyper-links e.t.c
+
+## ToDo
+* Trello
+* Test aspect ratio thing
+* Images lazy loading directive ---- JSON and node.js script v/s git commit files
+* angular-html-parser
+
+<div  class="my-image-container">
+    <img src="https://wallpaperaccess.com/full/251722.jpg" class="my-image">
+</div>
+
+<style>
+.my-image-container {
+    position: relative;
+    padding-top: calc(462 / 740 * 100%);
+    height: 0;
+}
+
+.my-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    height: auto; 
+}
+</style>
+
+## YOLO GOLO

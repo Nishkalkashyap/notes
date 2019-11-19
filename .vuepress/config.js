@@ -144,14 +144,14 @@ module.exports = {
                 "email-1.md"
             ],
             "/edfora/": [
+                "dashboard.md",
                 "documentation.md",
+                "coding-platforms.md",
+                "implementing-cloudflare.md",
+                "interview-questions.md",
                 "candidates.md",
                 "notes.md",
-                "coding-platforms.md",
-                "interview-questions.md",
-                "work.md",
-                "dashboard.md",
-                "implementing-cloudflare.md"
+                "work.md"
             ]
         }
     },
