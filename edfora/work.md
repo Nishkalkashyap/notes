@@ -13,3 +13,7 @@ tags : []
 ### 18-11-2019
 * Took coding interviews
 * Prepared the edfora-documentation-website [edfora.nishkal.in](https://edfora.nishkal.in)
+
+### 19-11-2019
+* Took 2 coding interviews
+* Worked on `angular2-baseproject`, for image optimization/ image jumping

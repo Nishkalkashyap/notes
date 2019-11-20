@@ -18,39 +18,34 @@ tags : []
 ```
 
 
+## Adesh
+* Profile - Full Stack Developer
+* Email - vadeupm@gmail.com
+* Dated - 19/11/2019
+
+```md
+* Can talk
+* Doesn't knows `fs` module
+* Has joined a new job recently
+* Not a rockstar, can consider for 2nd interview
+```
 
 
+## Nripesh Agarwal
+* Profile - Engineering Manager
+* Email - nripesh.agarwal@gmail.com
+* Dated - 19/11/2019 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```md
+* Has 10+ years of experience
+* Knows stuff about cloud
+* Recommended for 2nd interview
+```
 
 
 
 <!-- 
-I just want this to be a conversation,
-* let me discuss some points with you 
-* and you give me the feedback on how we can improve/work upon those things. -->
-
 * We can have a conversation and 
 * just give you a brief description this hiring and a 
 * few things 
@@ -67,4 +62,11 @@ If it would be possible for you to talk about your role in your current organiza
 
 * We are looking to make structural changes, like product team > Developers > 
 * Google cloud vs AWS
-* 
+
+* What we are looking for this hiring is I've been told 
+  * to make optimizations in our cloud architecture
+  * reduce the friction between various moving parts
+  * scalability, as we gain more users
+
+* Your CV which is very impressive
+* Do you still code -->
