@@ -17,3 +17,9 @@ tags : []
 ### 19-11-2019
 * Took 2 coding interviews
 * Worked on `angular2-baseproject`, for image optimization/ image jumping
+
+### 20-11-2019
+* Took interview
+* Resolved `MV-4715`
+* Worked on image optimization `angular2-baseproject`
+
