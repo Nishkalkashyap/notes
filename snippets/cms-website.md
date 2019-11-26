@@ -35,3 +35,7 @@ tags : []
 * Comments section (slack v/s disqus)
 * Analytics stuff
 * Image compression (because terrible football analyses was very heavy)
+
+## Money things
+* Adobe premium pro (aayu would see plans /feasibility e.t.c)
+* Elastic search/Algolia
