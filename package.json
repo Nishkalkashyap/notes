@@ -4,7 +4,7 @@
   "description": "Personal notes",
   "main": "index.js",
   "scripts": {
-    "tags": "ts-node scripts/non-electron-dependent.ts",
+    "tags": "ts-node scripts/non-electron-dependent.ts && ts-node ./scripts/fetch-blog.ts",
     "test": "ts-node ./scripts/check-files.ts",
     "build": "npm run tags && vuepress build",
     "post-build": "ts-node ./scripts/create-site-map.ts && ts-node ./scripts/delete-edfora.ts",
