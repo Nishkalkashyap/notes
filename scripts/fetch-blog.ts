@@ -19,15 +19,39 @@ async function fetchPosts() {
         str = str.concat('---', '\n\n');
 
 
-        str = str.concat(`Author: ${post.author}`, '\n\n');
-        str = str.concat(`Date: ${post.date}`, '\n\n');
-        str = str.concat(`${post.content.rendered}`);
+        // str = str.concat(`Author: ${post.author}`, '\n\n');
+        // str = str.concat(`Date: ${post.date}`, '\n\n');
+        // str = str.concat(`${post.content.rendered}`);
+        const filteredText = filterText(post.content.rendered);
+        str = str.concat(filteredText);
 
         const filepath = path.join('./blog', post.slug + '.md');
         fs.ensureDirSync(path.dirname(filepath));
         fs.writeFileSync(filepath, str);
     });
 
+}
+
+function filterText(baseString: string): string {
+    let str = baseString;
+
+
+    // replace p tags
+    str = str.replace(/<p.*?>([\w\W]*?)<[\/]p>/g, '\n$1\n');
+
+    // replace img tags
+    // str = filterImageTag(str);
+
+
+    return str;
+
+    function filterImageTag(baseString: string): string {
+        let filtered_str = baseString;
+        // filtered_str = filtered_str.replace(/<img.+src=([\w\W]+?)[\/]?>/g, '![]($1)');
+        // filtered_str = filtered_str.replace(/<img.+src=([\w\W]+?)[\/]?>/g, '![]($1)');
+        filtered_str = filtered_str.replace(/<img.+?src=['"](htt.+?)['"].+?[\/]?>/g, '\n![]($1)\n');
+        return filtered_str;
+    }
 }
 
 interface IPost {

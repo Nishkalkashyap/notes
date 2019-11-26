@@ -125,6 +125,7 @@ module.exports = {
                 "nodejs.md"
             ],
             "/snippets/": [
+                "website.md",
                 "build-portfolio.md",
                 "ffmpeg-convert.md",
                 "news-mentions.md",
