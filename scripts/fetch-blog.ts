@@ -17,6 +17,7 @@ async function fetchPosts() {
         str = str.concat(`title : "${post.title.rendered.replace(/["]+/g, "'")}"`, '\n');
         str = str.concat(`description : "${post.excerpt.rendered.replace(/["]+/g, "'")}"`, '\n');
         str = str.concat(`tags : []`, '\n');
+        str = str.concat(`pageClass : blog-page`, '\n');
         str = str.concat('---', '\n\n');
 
         str = str.concat(`# ${post.title.rendered}`, '\n');
@@ -28,7 +29,7 @@ async function fetchPosts() {
 
         const filepath = path.join('./blog', post.slug + '.md');
         fs.ensureDirSync(path.dirname(filepath));
-        fs.writeFileSync(filepath, str);
+        fs.writeFileSync(filepath, str, { encoding: 'utf-8' });
     });
 
 }
@@ -37,22 +38,30 @@ function filterText(baseString: string): string {
     let str = baseString;
 
 
-    // replace p tags
+    // replace tag: <p>
     str = str.replace(/<p.*?>([\w\W]*?)<[\/]p>/g, '\n$1\n');
 
-    // replace h2 tags
+    // replace tag: <h2>
     str = str.replace(/<h2.*?>([\w\W]*?)<[\/]h2>/g, '\n## $1\n');
 
-    // replace img tags
+    // replace tag: <h3>
+    str = str.replace(/<h3.*?>([\w\W]*?)<[\/]h3>/g, '\n### $1\n');
+
+    // replace tag: <strong>
+    str = str.replace(/<strong.*?>([\w\W]*?)<[\/]strong>/g, '**$1**');
+
+    // replace tag: <img>
     str = str.replace(/<img.+?src=['"](htt.+?)['"].+?[\/]?>/g, '\n![]($1)\n');
 
-    // replace figure
+    // replace tag: <figure>
     str = str.replace(/<figure.*?>([\w\W]*?)<[\/]figure>/g, '\n$1\n');
 
 
     // replace diymechatronics.com
-    str = str.replace(/https:\/\/diymechatronics.com/g, 'https://terriblefootballanalysis.com')
+    str = str.replace(/https:\/\/diymechatronics.com/g, 'https://terriblefootballanalysis.com');
 
+    // replace new-lines
+    str = str.replace(/[\n]+/g, '\n\n');
 
     return str;
 
