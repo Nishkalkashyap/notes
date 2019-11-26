@@ -23,3 +23,21 @@ tags : []
 * Resolved `MV-4715`
 * Worked on image optimization `angular2-baseproject`
 
+### 21-11-2019
+* Do image-optimization stuff
+* Fix bugs in `test-ongoing-main.component.html`
+<!-- *todo: Fix bugs in `test-ongoing-main.component.html` -->
+
+### 22-11-2019
+* **On leave**
+
+
+### 25-11-2019
+* Implemented fix for image jumping in `speed` branch `angular2-baseproject`, pushed upstream.
+* Looked for CMS for documentation
+
+### 26-11-2019
+* Looked for CMS for documentation
+
+
+
