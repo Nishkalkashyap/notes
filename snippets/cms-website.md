@@ -13,7 +13,7 @@ tags : []
   * [custom signature](https://quarkjs.io/FAQ/about.html)
 
 ## What can we do about it?
-* You use wordpress (scalability issues, maintenance e.t.c)
+* You use wordpress (wont be able to help, scalability issues, maintenance e.t.c)
 * You learn to write markdown
 * OR
   * Use wordpress as CMS
@@ -36,6 +36,7 @@ tags : []
 * Analytics stuff
 * Image compression (because terrible football analyses was very heavy)
 
-## Money things
+## Ask Aayush
 * Adobe premium pro (aayu would see plans /feasibility e.t.c)
 * Elastic search/Algolia
+* Check other blogs for fitness, their layout e.t.c
