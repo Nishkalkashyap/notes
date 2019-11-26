@@ -78,6 +78,10 @@ module.exports = {
                 link: '/edfora/'
             },
             {
+                text: 'Blog',
+                link: '/blog/'
+            },
+            {
                 text: 'More',
                 items: [{
                     text: 'Links',
@@ -153,6 +157,13 @@ module.exports = {
                 "candidates.md",
                 "notes.md",
                 "work.md"
+            ],
+            "/blog/": [
+                "how-lyon-outclassed-manchester-city-tactical-analysis.md",
+                "manchester-city-may-have-momentum-but-lady-luck-seems-to-be-on-liverpools-side.md",
+                "the-aubameyang-conundrum.md",
+                "tottenham-vs-chelsea-will-sarri-finally-taste-defeat.md",
+                "woeful-manchester-united-stutter-to-a-goalless-draw-against-palace.md"
             ]
         }
     },

@@ -16,6 +16,7 @@ async function fetchPosts() {
         str = str.concat('---', '\n');
         str = str.concat(`title : "${post.title.rendered.replace(/["]+/g, "'")}"`, '\n');
         str = str.concat(`description : "${post.excerpt.rendered.replace(/["]+/g, "'")}"`, '\n');
+        str = str.concat(`tags : []`, '\n');
         str = str.concat('---', '\n\n');
 
         str = str.concat(`# ${post.title.rendered}`, '\n');
