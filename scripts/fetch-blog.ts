@@ -18,10 +18,10 @@ async function fetchPosts() {
         str = str.concat(`description : "${post.excerpt.rendered.replace(/["]+/g, "'")}"`, '\n');
         str = str.concat('---', '\n\n');
 
+        str = str.concat(`# ${post.title.rendered}`, '\n');
+        str = str.concat(`[[toc]]`, '\n');
 
-        // str = str.concat(`Author: ${post.author}`, '\n\n');
-        // str = str.concat(`Date: ${post.date}`, '\n\n');
-        // str = str.concat(`${post.content.rendered}`);
+
         const filteredText = filterText(post.content.rendered);
         str = str.concat(filteredText);
 
@@ -39,19 +39,22 @@ function filterText(baseString: string): string {
     // replace p tags
     str = str.replace(/<p.*?>([\w\W]*?)<[\/]p>/g, '\n$1\n');
 
+    // replace h2 tags
+    str = str.replace(/<h2.*?>([\w\W]*?)<[\/]h2>/g, '\n## $1\n');
+
     // replace img tags
-    // str = filterImageTag(str);
+    str = str.replace(/<img.+?src=['"](htt.+?)['"].+?[\/]?>/g, '\n![]($1)\n');
+
+    // replace figure
+    str = str.replace(/<figure.*?>([\w\W]*?)<[\/]figure>/g, '\n$1\n');
+
+
+    // replace diymechatronics.com
+    str = str.replace(/https:\/\/diymechatronics.com/g, 'https://terriblefootballanalysis.com')
 
 
     return str;
 
-    function filterImageTag(baseString: string): string {
-        let filtered_str = baseString;
-        // filtered_str = filtered_str.replace(/<img.+src=([\w\W]+?)[\/]?>/g, '![]($1)');
-        // filtered_str = filtered_str.replace(/<img.+src=([\w\W]+?)[\/]?>/g, '![]($1)');
-        filtered_str = filtered_str.replace(/<img.+?src=['"](htt.+?)['"].+?[\/]?>/g, '\n![]($1)\n');
-        return filtered_str;
-    }
 }
 
 interface IPost {
