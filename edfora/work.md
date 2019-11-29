@@ -39,5 +39,13 @@ tags : []
 ### 26-11-2019
 * Looked for CMS for documentation
 
+### 27-11-2019
+* Implemented `ATFAP-487`
+
+### 29-11-2019
+* Implemented `ATFAP-546`
+
+TODO: `saveandnext` function/internet thing in `test-ongoing-main.component.ts` 
+
 
 
