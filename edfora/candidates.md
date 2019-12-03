@@ -64,6 +64,16 @@ tags : []
 * Nope nope
 ```
 
+## **Vikas**
+* Profile - Lead for frontend developer
+* Email - killerof99kings@gmail.com
+* Dated - 3/12/2019 
+
+```md
+* Vikas good buoy
+```
+
+
 <!-- 
 * We can have a conversation and 
 * just give you a brief description this hiring and a 
