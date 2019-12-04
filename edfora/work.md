@@ -52,6 +52,7 @@ tags : []
 
 ### 04-12-2019
 * Worked on CMS Common `ATFAP-564`
+* Worked on [aws-s3-backup](https://github.com/Nishkalkashyap/edfora-aws-s3-backup) electron app.
 * Worked on `ATFAP-504`, created sub task `ATFAP-569`. (Live test card thing)
 
 * Already exists
