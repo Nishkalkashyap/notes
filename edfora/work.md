@@ -25,8 +25,6 @@ tags : []
 
 ### 21-11-2019
 * Do image-optimization stuff
-* Fix bugs in `test-ongoing-main.component.html`
-<!-- *todo: Fix bugs in `test-ongoing-main.component.html` -->
 
 ### 22-11-2019
 * **On leave**
@@ -45,7 +43,27 @@ tags : []
 ### 29-11-2019
 * Implemented `ATFAP-546`
 
+### 02-12-2019
+* Started work on `ATFAP-504`
+* Started work on CMS Migration
+
+### 03-12-2019
+* Almost completed CMS migration
+
+### 04-12-2019
+* Worked on CMS Common `ATFAP-564`
+* Worked on `ATFAP-504`, created sub task `ATFAP-569`. (Live test card thing)
+
+* Already exists
+* Technical terms (pre series/ test series/ RPI?)
+* Need backend engineer to clarify stuff(how the api structure is of test-series)
+* Need HTML person
+
 TODO: `saveandnext` function/internet thing in `test-ongoing-main.component.ts` 
+* Fix bugs in `test-ongoing-main.component.html`
+
+
+
 
 
 
