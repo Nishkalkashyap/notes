@@ -55,6 +55,9 @@ tags : []
 * Worked on [aws-s3-backup](https://github.com/Nishkalkashyap/edfora-aws-s3-backup) electron app.
 * Worked on `ATFAP-504`, created sub task `ATFAP-569`. (Live test card thing)
 
+### 05-12-2019
+* Worked on testing CMS Common `ATFAP-564`
+
 * Already exists
 * Technical terms (pre series/ test series/ RPI?)
 * Need backend engineer to clarify stuff(how the api structure is of test-series)

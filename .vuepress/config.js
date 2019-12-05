@@ -149,6 +149,7 @@ module.exports = {
                 "email-1.md"
             ],
             "/edfora/": [
+                "running-cms.md",
                 "dashboard.md",
                 "documentation.md",
                 "coding-platforms.md",
