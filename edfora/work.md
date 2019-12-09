@@ -58,6 +58,13 @@ tags : []
 ### 05-12-2019
 * Worked on testing CMS Common `ATFAP-564`
 
+### 06-12-2019
+* Ready to deploy CMS common (`ATFAP-564`) on staging
+
+### 09-12-2019
+* Took 2 interviews
+* Tried to provision cms-commons server
+
 * Already exists
 * Technical terms (pre series/ test series/ RPI?)
 * Need backend engineer to clarify stuff(how the api structure is of test-series)
