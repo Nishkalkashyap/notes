@@ -25,7 +25,13 @@ tags : []
 2. Update `config.ts` file in `cms-frontend-v2`
 3. Optionally update `authors.js` file in `cmsv2_backend_es6`
 
-## 3. Run the following commands
+## 3. Setup cms-commons
+1. `cd cms_dataservice_es6/lib`
+2. `git clone https://nishkal-edfora@bitbucket.org/edfora/cms-commons edfora-cms-commons`
+3. `cd edfora-cms-commons`
+4. `git checkout cms-merge-paths`
+
+## 4. Run the following commands
 1. Run `src/redis-server` in redis installation directory _(Starting redis server)_
 2. Run `npm run authors` (`npm run authors.w` for windows) in `cmsv2_backend_es6`
 3. Run `npm run authors` (`npm run authors.w` for windows) in `cms_dataservice_es6`
