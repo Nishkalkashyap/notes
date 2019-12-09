@@ -9,7 +9,7 @@ tags : []
 [[toc]]
 
 ## 1. Clone Repos
-1. `git clone  https://nishkal-edfora@bitbucket.org/nishkal-edfora/cms_dataservice_es6.git`
+1. `git clone  https://nishkal-edfora@bitbucket.org/edfora/cms_dataservice_es6.git`
 2. `git clone https://nishkal-edfora@bitbucket.org/edfora/cmsv2_backend_es6.git`
 3. `git clone https://nishkal-edfora@bitbucket.org/edfora/cms-frontend-v2.git`
 
@@ -23,15 +23,16 @@ tags : []
 ## 2. Update config files
 1. Update `authors.js` file in `cms_dataservice_es6`
 2. Update `config.ts` file in `cms-frontend-v2`
+3. Optionally update `authors.js` file in `cmsv2_backend_es6`
 
 ## 3. Run the following commands
 1. Run `src/redis-server` in redis installation directory _(Starting redis server)_
-2. Run `npm run authors.w` (`npm run authors` for linux) in `cmsv2_backend_es6`
-3. Run `npm run authors.w` (`npm run authors` for linux) in `cms_dataservice_es6`
+2. Run `npm run authors` (`npm run authors.w` for windows) in `cmsv2_backend_es6`
+3. Run `npm run authors` (`npm run authors.w` for windows) in `cms_dataservice_es6`
 4. Run `npm run start` in `cms-frontend-v2`
 
 ## Debugging
-* Comment out `logger.streams.path` key in windows, replace with `"stream": process.stdout`
+* Comment out `logger.streams.path` key if you're running on windows platform, replace with `"stream": process.stdout`
 
 ## MetaData
 If setup correctly, 
