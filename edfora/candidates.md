@@ -73,6 +73,16 @@ tags : []
 * Vikas good buoy
 ```
 
+## **Shubham**
+* Profile - Sr Backend Developer
+* Email - shubhamdixit863@gmail.com
+* Dated - 9/12/2019 
+
+```md
+* Has worked with Java/ Node.js frameworks
+* Recommended for 2nd interview
+* Technically sound
+```
 
 <!-- 
 * We can have a conversation and 
