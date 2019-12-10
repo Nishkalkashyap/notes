@@ -46,7 +46,7 @@ tags : []
 
 ## **Sanju**
 * Profile - Full stack developer
-* Email - --
+* Email - .
 * Dated - 20/11/2019 
 * type - Referral candidate
 
@@ -56,7 +56,7 @@ tags : []
 
 ## **Sanjeev Kumar**
 * Profile - Node.js developer
-* Email - --
+* Email - .
 * Dated - 26/11/2019 
 
 
@@ -70,10 +70,21 @@ tags : []
 * Dated - 3/12/2019 
 
 ```md
-* Vikas good buoy
 ```
 
-## **Shubham**
+## **Chahat**
+* Profile - Full stack developer
+* Email - .
+* Dated - 10/12/2019 
+
+```md
+* Has worked at Jabong
+* Works only in JavaScript. No TypeScript. No angular
+* Was able to solve HackerRank ds problem
+* Good communication skills/ Confident
+```
+
+## **Shubham Dixit**
 * Profile - Sr Backend Developer
 * Email - shubhamdixit863@gmail.com
 * Dated - 9/12/2019 
