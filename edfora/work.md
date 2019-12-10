@@ -62,8 +62,9 @@ tags : []
 * Ready to deploy CMS common (`ATFAP-564`) on staging
 
 ### 09-12-2019
-* Took 2 interviews
+* Took 3 interviews
 * Tried to provision cms-commons server
+* Started working on `MV-4715`
 
 * Already exists
 * Technical terms (pre series/ test series/ RPI?)

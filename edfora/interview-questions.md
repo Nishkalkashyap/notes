@@ -43,7 +43,7 @@ const arr = [10, 12, 15, 21]
 for (var i = 0;i < arr.length;i++) {
     setTimeout(function(){
         console.log(`Index: ${i}, element: ${arr[i]}`);
-    });
+    }, 3000);
 }
 ```
 
@@ -58,4 +58,5 @@ for (var i = 0;i < arr.length;i++) {
 7. What is hoisting in JavaScript?
 8. What is lazy loading, in general?
 9. Build systems/ webpack e.t.c
+10. What are micro-services?
 
