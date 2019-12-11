@@ -95,6 +95,17 @@ tags : []
 * Technically sound
 ```
 
+## **Anurudh**
+* Profile - Full Stack Developer
+* Email - anurudhojha98@gmail.com
+* Dated - 11/12/2019 
+
+```md
+* Could not solve DS question (recursive readDir)
+* Could not define hoisting
+* Had weak JS concepts
+```
+
 <!-- 
 * We can have a conversation and 
 * just give you a brief description this hiring and a 
