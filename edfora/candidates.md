@@ -106,6 +106,16 @@ tags : []
 * Had weak JS concepts
 ```
 
+## **Munny Kumar**
+* Profile - Full Stack Developer
+* Email - munny165@hotmail.com
+* Dated - 11/12/2019 
+
+```md
+* Has good projects, but cant explain those projects.
+* Communication issues.
+```
+
 <!-- 
 * We can have a conversation and 
 * just give you a brief description this hiring and a 
