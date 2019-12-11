@@ -29,6 +29,7 @@ result : ['file-1', 'file-2', 'file-3', 'file-4', 'file-5']
 Function signature:
 ```js
 import * as fs from 'fs';
+import * as path from 'path';
 function recursiveReadDir(dirPath : string) : string[] {
     //...your code goes here
 }
