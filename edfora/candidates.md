@@ -116,6 +116,16 @@ tags : []
 * Communication issues.
 ```
 
+## **Deepak Tyagi**
+* Profile - Full Stack Developer
+* Email - dt9819@gmail.com
+* Dated - 11/12/2019
+
+```md
+* Freelancer (1 year 7 months)
+* JavaScript, Node.js, Angular.js, React.js, React-Native, Java, Android, C#, IOS, MERN, MEAN, etc.
+```
+
 <!-- 
 * We can have a conversation and 
 * just give you a brief description this hiring and a 
