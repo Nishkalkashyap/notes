@@ -126,6 +126,16 @@ tags : []
 * JavaScript, Node.js, Angular.js, React.js, React-Native, Java, Android, C#, IOS, MERN, MEAN, etc.
 ```
 
+## **Shikha Dabas**
+* Profile - Full Stack Developer
+* Email - shikhadabas123@gmail.com
+* Dated - 12/12/2019
+
+```md
+* 2.5 years of experience
+* Node.js/ Angular/ JavaScript
+```
+
 <!-- 
 * We can have a conversation and 
 * just give you a brief description this hiring and a 
