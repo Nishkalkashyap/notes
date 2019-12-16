@@ -14,3 +14,6 @@ tags : []
 2. Point image urls to the same s3 bucket
 3. Add cloudflare in front of the bucket
 4. Deploy mypat prod api on cloudflare workers
+
+## ToDo
+* See how to migrate ec2 instance
