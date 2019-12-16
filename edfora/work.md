@@ -66,6 +66,9 @@ tags : []
 * Tried to provision cms-commons server
 * Started working on `MV-4715`
 
+### 13-12-2019
+* Implemented pre series cards
+
 * Already exists
 * Technical terms (pre series/ test series/ RPI?)
 * Need backend engineer to clarify stuff(how the api structure is of test-series)
