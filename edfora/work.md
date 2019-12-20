@@ -69,6 +69,14 @@ tags : []
 ### 13-12-2019
 * Implemented pre series cards
 
+### 19-12-2019
+* Worked on `ATFAP-504`. Pre series test cards.
+
+### 19-12-2019
+* Worked on `ATFAP-623`, `ATFAP-624`. Deployed on prod
+
+resolve test view result and boom test/attempt test bug
+
 * Already exists
 * Technical terms (pre series/ test series/ RPI?)
 * Need backend engineer to clarify stuff(how the api structure is of test-series)
