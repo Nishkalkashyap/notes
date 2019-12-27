@@ -136,6 +136,18 @@ tags : []
 * Node.js/ Angular/ JavaScript
 ```
 
+## **Rahul Kumar**
+* Profile - Full Stack Developer/ Growth Engineer
+* Email - rahulaccenture7250@gmail.com
+* Dated - 27/12/2019
+* [LinkedIn](https://www.linkedin.com/in/rahulkumar67/)
+
+```md
+* 6 months of experience
+* Weak JavaScript concepts. Writes React but not JS
+* Poor in React
+```
+
 <!-- 
 * We can have a conversation and 
 * just give you a brief description this hiring and a 
