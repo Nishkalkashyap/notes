@@ -148,6 +148,18 @@ tags : []
 * Poor in React
 ```
 
+## **Anant Kaushal**
+* Profile - Full Stack Developer/ Growth Engineer
+* Email - anant.kaushal026@gmail.com
+* Dated - 31/12/2019
+* [LinkedIn](https://www.linkedin.com/in/anant-kaushal-548803115/)
+
+```md
+* 1.7 Years in experience
+* Doesn't knows JavaScript but knows Angular????
+* Has minimal exposure to backend and API integrations
+```
+
 <!-- 
 * We can have a conversation and 
 * just give you a brief description this hiring and a 
