@@ -9,8 +9,8 @@ import * as sharp from 'sharp';
 
 var beautify = require('js-beautify').js;
 
-let sidebars = ['config-files', 'tags', 'snippets', 'replies', 'blog'];
-let readmefiles = ['config-files', 'snippets', 'replies', 'blog'];
+let sidebars = ['config-files', 'tags', 'snippets', 'replies'];
+let readmefiles = ['config-files', 'snippets', 'replies'];
 
 if (!process.env.CI) {
     sidebars = sidebars.concat('edfora');
