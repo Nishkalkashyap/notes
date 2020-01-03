@@ -172,6 +172,17 @@ tags : []
 * Good with UI
 ```
 
+## **Amit Kumar**
+* Profile - Full Stack Developer/ Growth Engineer
+* Email - amit.suhag007@gmail.com
+* Dated - 03/01/2020
+* Offline interview
+
+```md
+* 3.5+ years experience
+* Codes in angular but doesn't knows JavaScript
+```
+
 <!-- 
 * We can have a conversation and 
 * just give you a brief description this hiring and a 
