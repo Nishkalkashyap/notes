@@ -160,6 +160,18 @@ tags : []
 * Has minimal exposure to backend and API integrations
 ```
 
+## **Vrijraj Singh**
+* Profile - Full Stack Developer/ Growth Engineer
+* Email - vrijraj2396@gmail.com
+* Dated - 31/12/2019
+* [LinkedIn](https://linkedin.com/in/vrijraj/)
+
+```md
+* Google developer expert
+* Mainly in Vue.js
+* Good with UI
+```
+
 <!-- 
 * We can have a conversation and 
 * just give you a brief description this hiring and a 
