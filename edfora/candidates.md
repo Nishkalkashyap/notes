@@ -183,6 +183,16 @@ tags : []
 * Codes in angular but doesn't knows JavaScript
 ```
 
+## **Neha Chaudhary**
+* Profile - Full Stack Developer/ Growth Engineer
+* Email - chaudharyneha2609@gmail.com
+* Dated - 06/01/2020
+
+```md
+* Programmer Analyst Trainee
+* Weak concepts
+```
+
 <!-- 
 * We can have a conversation and 
 * just give you a brief description this hiring and a 
