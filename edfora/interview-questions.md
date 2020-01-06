@@ -48,6 +48,32 @@ for (var i = 0;i < arr.length;i++) {
 }
 ```
 
+### Tech-Question-4
+Write a function to reverse a String without using any pre-defined functions.
+```js
+function reverseString(text : string) : string {
+    //...your code goes here
+}
+```
+
+### Tech-Question-5
+Count the number of appearances of letters in a string, and print the result as explained in the examples below.
+```js
+/** Example 1:
+* AABBCCDD
+* A2B2C2D2
+*/
+
+/** Example 2:
+* AEDCCC
+* A1E1D1C3
+*/
+
+function countLetters(text : string) : string {
+    //...your code goes here
+}
+```
+
 
 ### Concept Questions
 1. What are modules in JavaScript?
@@ -60,4 +86,8 @@ for (var i = 0;i < arr.length;i++) {
 8. What is lazy loading, in general?
 9. Build systems/ webpack e.t.c
 10. What are micro-services?
+11. Prototypal inheritance
 
+add firebase qquestions
+aws lambda
+serverless
