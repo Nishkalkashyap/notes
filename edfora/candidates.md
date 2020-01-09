@@ -193,6 +193,33 @@ tags : []
 * Weak concepts
 ```
 
+## **Parth**
+* Profile - Full Stack Developer
+* Email - parth.kher1@gmail.com
+* Dated - 09/01/2020
+* [LinkedIn](https://www.linkedin.com/in/parth-kher-47a247125/)
+
+```md
+* Not okay
+* Doesn't knows in depth JavaScript
+```
+
+
+## **Rahul**
+* Profile - Full Stack Developer/ Growth Engineer
+* Email - rahulnitsxr@gmail.com
+* Dated - 09/01/2020
+* [LinkedIn](https://www.linkedin.com/in/rahulworld/)
+
+```md
+* React/React Native
+* 1 Year 7 months experience
+* Knows React
+* Doesn't knows Angular/TypeScript
+* Doesn't knows indepth JavaScript (e.g. hoisting, no webpack)
+* Backend is on Ruby on Rails
+```
+
 <!-- 
 * We can have a conversation and 
 * just give you a brief description this hiring and a 

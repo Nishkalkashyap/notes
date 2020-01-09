@@ -87,6 +87,7 @@ function countLetters(text : string) : string {
 9. Build systems/ webpack e.t.c
 10. What are micro-services?
 11. Prototypal inheritance
+12. React hooks
 
 add firebase qquestions
 aws lambda
