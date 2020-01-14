@@ -74,20 +74,30 @@ function countLetters(text : string) : string {
 }
 ```
 
+### Tech 4
+You are given a string containing characters  and  only. Your task is to change it into a string such that there are no matching adjacent characters. To do this, you are allowed to delete zero or more characters in the string.
+
+Your task is to find the minimum number of required deletions.
+
+For example, given the string s = "AABAAB" , remove an  at positions  and  to make  in  deletions.
 
 ### Concept Questions
 1. What are modules in JavaScript?
 2. What are commonjs modules?
-3. What is the difference between various module definitions e.g AMD/ requirejs/ UMD modules e.t.c
-4. How Node.js resolves modules
-5. Explain the difference between readFile and createReadStream in Node js ?
-6. List types of Http requests?
-7. What is hoisting in JavaScript?
-8. What is lazy loading, in general?
-9. Build systems/ webpack e.t.c
-10. What are micro-services?
-11. Prototypal inheritance
-12. React hooks
+3. Can we `require` json files
+4. What is the difference between various module definitions e.g AMD/ requirejs/ UMD modules e.t.c
+5. How Node.js resolves modules
+6. Explain the difference between readFile and createReadStream in Node js ?
+7. List types of Http requests?
+8. What is hoisting in JavaScript?
+9. What is lazy loading, in general?
+10. Build systems/ webpack e.t.c
+11. What are micro-services?
+12. Prototypal inheritance
+13. React hooks
+14. Purpose of package-lock.json
+15. Difference between ES6, ES7 Syntax
+16. What are Polyfills?
 
 add firebase qquestions
 aws lambda
