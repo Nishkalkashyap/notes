@@ -248,6 +248,7 @@ tags : []
 * Dated - 14/01/2020
 
 ```md
+* Good communication skills
 * Didn't knew prototypal inheritance/ TypeScript/ SCSS e.t.c
 * Couldn't explain react hooks/ react life cycle methods/ nodejs resolution 
 ```
