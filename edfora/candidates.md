@@ -220,6 +220,42 @@ tags : []
 * Backend is on Ruby on Rails
 ```
 
+## **Udit Agrawal**
+* Profile - Full Stack Developer
+* Email - udiwal789@gmail.com
+* Dated - 10/01/2020
+* [LinkedIn](https://www.linkedin.com/in/udit-agrawal/)
+
+```md
+* Works in a business like faasos, Rebel foods
+* Good communication skills
+```
+
+## **Rajeev**
+* Profile - Full Stack Developer
+* Email - rajeevnagarwal@gmail.com
+* Dated - 13/01/2020
+
+```md
+* Bad JavaScript basics, doesn't knows prototypal inheritance
+* Doesn't knows typescript
+* Ok'ish
+```
+
+## **Paresh**
+* Profile - Full Stack Developer
+* Email - pareshmaniyar1@gmail.com
+* Dated - 14/01/2020
+
+```md
+* Didn't knew prototypal inheritance/ TypeScript/ SCSS e.t.c
+* Couldn't explain react hooks/ react life cycle methods/ nodejs resolution 
+```
+
+
+
+
+
 <!-- 
 * We can have a conversation and 
 * just give you a brief description this hiring and a 
