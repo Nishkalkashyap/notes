@@ -84,14 +84,15 @@ For example, given the string s = "AABAAB" , remove an  at positions  and  to ma
 ### Concept Questions
 1. What are modules in JavaScript?
 2. What is lazy loading, in general?
-3. What are commonjs modules?
-4. Can we `require` json files
-5. What is the difference between various module definitions e.g AMD/ requirejs/ UMD modules e.t.c
-6. How Node.js resolves modules
-7. Explain the difference between readFile and createReadStream in Node js ?
-8. List types of Http requests?
-9. What is hoisting in JavaScript?
-10. Build systems/ webpack e.t.c
+3. code splitting/chunk splitting
+4. What are commonjs modules?
+5. Can we `require` json files
+6. What is the difference between various module definitions e.g AMD/ requirejs/ UMD modules e.t.c
+7. How Node.js resolves modules
+8. Explain the difference between readFile and createReadStream in Node js ?
+9. List types of Http requests?
+10. What is hoisting in JavaScript?
+11. Build systems/ webpack e.t.c
 11. What are micro-services?
 12. Prototypal inheritance
 13. React hooks

@@ -266,6 +266,18 @@ tags : []
 ```
 
 
+## **Navneet Tiwari**
+* Profile - Full Stack Developer
+* Email - navneett2@gmail.com
+* Dated - 15/01/2020
+
+```md
+* Tech Stack: Node.js, PHP, SQL server
+* Uses AWS (apparently)
+* Nope nope
+```
+
+
 
 
 <!-- 
