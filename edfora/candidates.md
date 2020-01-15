@@ -253,6 +253,17 @@ tags : []
 * Couldn't explain react hooks/ react life cycle methods/ nodejs resolution 
 ```
 
+## **Aastha Gupta**
+* Profile - Full Stack Developer
+* Email - aastha6348@gmail.com
+* Dated - 15/01/2020
+
+```md
+* Tech Stack: AWS, Node, python, Angular
+* Good communication skills
+* S3 bucket, dynamic generation problem, og tags
+* Not so good DS. Asked AABBCCDD question
+```
 
 
 
