@@ -84,22 +84,26 @@ For example, given the string s = "AABAAB" , remove an  at positions  and  to ma
 ### Concept Questions
 1. What are modules in JavaScript?
 2. What is lazy loading, in general?
-3. code splitting/chunk splitting
-4. What are commonjs modules?
-5. Can we `require` json files
-6. What is the difference between various module definitions e.g AMD/ requirejs/ UMD modules e.t.c
-7. How Node.js resolves modules
-8. Explain the difference between readFile and createReadStream in Node js ?
-9. List types of Http requests?
-10. What is hoisting in JavaScript?
-11. Build systems/ webpack e.t.c
-11. What are micro-services?
-12. Prototypal inheritance
-13. React hooks
-14. Purpose of package-lock.json
-15. Difference between ES6, ES7 Syntax
-16. What are Polyfills?
-17. Server side rendering
+3. How do you implement LAZY loading in angular
+4. code splitting/chunk splitting
+5. What are commonjs modules?
+6. Can we `require` json files
+7. What is the difference between various module definitions e.g AMD/ requirejs/ UMD modules e.t.c
+8. How Node.js resolves modules
+9. Explain the difference between readFile and createReadStream in Node js ?
+10. List types of Http requests?
+11. What is hoisting in JavaScript?
+12. Build systems/ webpack e.t.c
+13. What are micro-services?
+14. Prototypal inheritance
+15. React hooks
+16. React lifecycle methods
+17. React virtual DOM
+18. Purpose of package-lock.json
+19. Difference between ES6, ES7 Syntax
+20. What are Polyfills?
+21. Server side rendering
+22. Semantic versioning
 
 add firebase qquestions
 aws lambda

@@ -278,6 +278,19 @@ tags : []
 ```
 
 
+## **Sarthak Batra**
+* Profile - Sr. Full Stack Developer
+* Email - sarthak.technical@gmail.com
+* Dated - 16/01/2020
+
+```md
+* Sr. software engineer at Favcy
+* Tech Stack: LAMP, MEAN
+* Weak in mean stack. Didn't knew Polyfills, package-lock, semantic versioning e.t.c
+* Good conversation skills
+* Mainly focused on PHP/LAMP stack
+* Not so good DS. Asked AABBCCDD question. Was not able to solve
+```
 
 
 <!-- 
