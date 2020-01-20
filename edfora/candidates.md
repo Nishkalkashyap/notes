@@ -293,6 +293,17 @@ tags : []
 ```
 
 
+## **Priya Singh**
+* Profile - Full Stack Developer
+* Email - priyasingh2996@gmail.com
+* Dated - 20/01/2020
+* Offline interview
+
+```md
+* Fresher
+```
+
+
 <!-- 
 * We can have a conversation and 
 * just give you a brief description this hiring and a 
