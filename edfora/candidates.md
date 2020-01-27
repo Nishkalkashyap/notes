@@ -303,7 +303,57 @@ tags : []
 * Fresher
 ```
 
+## **Jagmohan Singh**
+* Profile - Backend Developer
+* Email - mr.ranveer7@gmail.com
+* Dated - 20/01/2020
 
+```md
+* Typescript: nope
+* Was able to solve "AABBCCDD"
+```
+
+
+## **Anil**
+* Profile - Backend Developer
+* Email - sanil123321@gmail.com
+* Dated - 22/01/2020
+
+```md
+* Typescript: nope
+* Node.js, AWS(lambda, s3, dynamo), Elastic Search, Redis, MySQL
+```
+
+
+## **Prem Bhushan Karn**
+* Profile - Senior Full Stack
+* Email - sanil123321@gmail.com
+* Dated - 23/01/2020
+
+```md
+* 5.5 years experience
+* Typescript: yes
+* MEAN, MERN
+```
+
+## **Himanshu Chanwla**
+* Profile - Full Stack
+* Email - himanshuchawla2014@gmail.com
+* Dated - 27/01/2020
+
+```md
+* Tech Stack: Node.js, AWS, React.js, Python, Golang
+```
+
+## **Shivam Kumar**
+* Profile - Full Stack
+* Email - shibam123425@gmail.com
+* Dated - 27/01/2020
+
+```md
+* Tech Stack: Node.js, AWS, React.js, Python
+* Bakeri.ai, college final year
+```
 <!-- 
 * We can have a conversation and 
 * just give you a brief description this hiring and a 

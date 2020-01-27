@@ -84,7 +84,7 @@ For example, given the string s = "AABAAB" , remove an  at positions  and  to ma
 ### Concept Questions
 1. What are modules in JavaScript?
 2. What is lazy loading, in general?
-3. How do you implement LAZY loading in angular
+3. How do you implement LAZY loading in angular/React
 4. code splitting/chunk splitting
 5. What are commonjs modules?
 6. Can we `require` json files
