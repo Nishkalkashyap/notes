@@ -18,3 +18,15 @@ tags : []
 
 ## ToDo
 * See how to migrate ec2 instance
+
+## ToDo 20-01-2020
+* resolve bug
+* review sagars prs
+* make design guide (notion)
+* lambda function thingy
+* detect api usage
+
+## ToDo 21-01-2020
+* respond to mails and text
+
+https://www.compose.com/articles/using-graphql-with-mongodb/

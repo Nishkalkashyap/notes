@@ -75,6 +75,16 @@ tags : []
 ### 19-12-2019
 * Worked on `ATFAP-623`, `ATFAP-624`. Deployed on prod
 
+### 27-01-2020
+* Took 3 interviews
+* Worked on todo list
+* Worked with bhuvan to solve CMS problem
+
+### 28-01-2020
+* Checked feasibility of `nearpe.com`
+* Worked on performance testing using puppeteer.
+
+
 resolve test view result and boom test/attempt test bug
 
 * Already exists

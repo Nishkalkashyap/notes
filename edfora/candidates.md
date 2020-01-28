@@ -354,6 +354,16 @@ tags : []
 * Tech Stack: Node.js, AWS, React.js, Python
 * Bakeri.ai, college final year
 ```
+
+
+## **Ashish**
+* Profile - Full Stack
+* Email - shibam123425@gmail.com
+* Dated - 27/01/2020
+
+```md
+* Tech Stack: LAMP stack, Python, MEAN Stack, MERN Stack
+```
 <!-- 
 * We can have a conversation and 
 * just give you a brief description this hiring and a 
