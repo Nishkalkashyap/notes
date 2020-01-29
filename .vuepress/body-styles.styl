@@ -11,6 +11,19 @@ body {
     --background-color: #ffffff;
     background-color: var(--background-color);
 
+
+    .hide-sagar {
+        header.navbar, div.page-edit, div.page-nav {
+            display: none;
+        }
+    }
+
+    @media print {
+        div.page-break-after {
+            page-break-after: always;
+        }
+    }
+
     div.home {
         .feature {
             h2 {

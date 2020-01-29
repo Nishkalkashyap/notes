@@ -149,6 +149,7 @@ module.exports = {
                 "email-1.md"
             ],
             "/edfora/": [
+                "sagar.md",
                 "todo.md",
                 "running-cms.md",
                 "dashboard.md",
