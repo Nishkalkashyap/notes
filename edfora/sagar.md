@@ -23,7 +23,6 @@ const isB2CUser = Boolean(location.href.match('https?://mypat.in.+'));
 import { Store } from '@ngrx/store';
 import { AppState } from '@project-root/src/app/store/app.reducers';
 
-//...
 class MyAngularComponent {
 
     constructor(private store: Store<AppState>){ }
@@ -41,7 +40,6 @@ class MyAngularComponent {
 import { Store } from '@ngrx/store';
 import { AppState } from '@project-root/src/app/store/app.reducers';
 
-//...
 class MyAngularComponent {
 
     constructor(private store: Store<AppState>){ }
@@ -61,7 +59,6 @@ class MyAngularComponent {
 import { Store } from '@ngrx/store';
 import { AppState } from '@project-root/src/app/store/app.reducers';
 
-//...
 class MyAngularComponent {
 
     constructor(private store: Store<AppState>){ }
