@@ -84,6 +84,10 @@ tags : []
 * Checked feasibility of `nearpe.com`
 * Worked on performance testing using puppeteer.
 
+### 29-01-2020
+* Checked feasibility of `nearpe.com`
+* Resolved Sagar's queries
+
 
 resolve test view result and boom test/attempt test bug
 
