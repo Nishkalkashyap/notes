@@ -364,6 +364,16 @@ tags : []
 ```md
 * Tech Stack: LAMP stack, Python, MEAN Stack, MERN Stack
 ```
+
+## **Uday Chauhan**
+* Profile - Full Stack
+* Email - uday.myplanet@gmail.com
+* Dated - 30/01/2020
+
+```md
+* Tech Stack: JavaScript, React, Nodejs, GraphQL, REST
+```
+
 <!-- 
 * We can have a conversation and 
 * just give you a brief description this hiring and a 

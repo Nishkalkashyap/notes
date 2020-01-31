@@ -88,6 +88,9 @@ tags : []
 * Checked feasibility of `nearpe.com`
 * Resolved Sagar's queries
 
+### 30-01-2020
+* Resolved some issues
+* Made Manjul's optimization sheet
 
 resolve test view result and boom test/attempt test bug
 
