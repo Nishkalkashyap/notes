@@ -29,4 +29,11 @@ tags : []
 ## ToDo 21-01-2020
 * respond to mails and text
 
+Review the following APIs:-
+/login
+/userGoals
+/goals
+/profile
+/getGoals
+
 https://www.compose.com/articles/using-graphql-with-mongodb/

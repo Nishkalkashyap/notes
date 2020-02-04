@@ -92,6 +92,13 @@ tags : []
 * Resolved some issues
 * Made Manjul's optimization sheet
 
+### 31-01-2020
+* Host on cloudfront and compare performance
+* Disable rocket loader
+
+### 03-02-2020
+* Worked on `e2e-test` repo
+
 resolve test view result and boom test/attempt test bug
 
 * Already exists
