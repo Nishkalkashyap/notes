@@ -374,6 +374,51 @@ tags : []
 * Tech Stack: JavaScript, React, Nodejs, GraphQL, REST
 ```
 
+## **Shaurya Mathur**
+* Profile - Full Stack
+* Email - shauryamathur2001@gmail.com
+* Dated - 10/02/2020
+
+```md
+* Abyeti Technologies
+* Tech Stack: MERN Stack, Java backend
+* Poor JavaScript
+```
+
+## **Sanket Singh**
+* Profile - Full Stack
+* Email - singh.sanket1103@gmail.com
+* Dated - 11/02/2020
+
+```md
+* Ruby on rails
+* Tech Stack: Angular, ruby on rails, node.js, React.js, MySQL
+* Will graduate in 2020
+* Okish concepts. Good for fresher
+```
+
+## **Forgot name**
+* Profile - Full Stack
+* 
+* Email - .
+* Dated - 12/02/2020
+* Type - offline
+
+```md
+* Seems more like a UI developer
+* 7 years of expreience
+```
+
+## **Garvit**
+* Profile - Full Stack
+* Email - garvitanand11@gmail.com
+* Dated - 12/02/2020
+
+```md
+* Tech Stack: Node.js, React.js
+* Lazy loading = Hoisting??
+* polyfills = prototypes??
+```
 <!-- 
 * We can have a conversation and 
 * just give you a brief description this hiring and a 
