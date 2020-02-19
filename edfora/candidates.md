@@ -419,6 +419,18 @@ tags : []
 * Lazy loading = Hoisting??
 * polyfills = prototypes??
 ```
+
+## **Ram Simran**
+* Profile - Full Stack
+* Email - ramsimrang96@gmail.com
+* Dated - 19/02/2020
+
+```md
+* PayZello: works at Fintech startup
+* Tech Stack: Node.js, AWS lambda, Serverless, React Native, MongoDB
+* (no react.js, or angular)
+```
+
 <!-- 
 * We can have a conversation and 
 * just give you a brief description this hiring and a 
