@@ -431,6 +431,31 @@ tags : []
 * (no react.js, or angular)
 ```
 
+
+## **Deepank**
+* Profile - Full Stack
+* Email - ramsimrang96@gmail.com
+* Dated - 20/02/2020
+
+```md
+* Algoscale Technologies: 
+* Tech Stack: Node.js, MySQL, Redis, Elastic Search, Docker, AWS
+* Typescript: 
+* (no react.js, or angular)
+```
+
+## **Sachin**
+* Profile - Full Stack
+* Email - bhardwaj.sachin44@gmail.com
+* Dated - 20/02/2020
+
+```md
+* Algoscale Technologies: 
+* Tech Stack: Node.js, MySQL, Redis, Elastic Search, Docker, AWS
+* Typescript: 
+* (no react.js, or angular)
+```
+
 <!-- 
 * We can have a conversation and 
 * just give you a brief description this hiring and a 
