@@ -84,7 +84,7 @@ class MyAngularComponent {
 We are trying to migrate away fron Angular 4, to angular 5. This is a breaking change, so please don't use this.
 
 ### 2. Unit tests
-Do not commit test files if you are not going to write unit tests
+Do not commit test files `(*.spec.ts)` if you are not going to write unit tests
 
 ### 2. Possible error in binding
 The below will not work, please use `[src]` instead of `src`.
@@ -220,7 +220,7 @@ Following code has been observed in multiple places, please use global css varia
 !!! success Right
 ```css
 /* define the css variable in gle global styles file (/src/styles.css in out case) */
-@media only screen and (max-width: var(--breakpoing-medium))
+@media only screen and (max-width: var(--breakpoint-medium))
 ```
 !!!
 
@@ -268,7 +268,7 @@ let newDate = new Date(5410 * 1000);
 ``` 
 
 ### 12. Use enums instead of strings
-Please use enums at any place you want to add a static string value. e.g.
+Please use enums at any place you want to add a static string value for strict type checking. e.g.
 
 !!! failure Wrong
 ```ts
