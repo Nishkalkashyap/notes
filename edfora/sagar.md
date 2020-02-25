@@ -80,9 +80,22 @@ class MyAngularComponent {
 
 [[toc]]
 
+### 1. Do not use `::ng-deep`
+We are trying to migrate away fron Angular 4, to angular 5. This is a breaking change, so please don't use this.
+
+### 2. Unit tests
+Do not commit test files if you are not going to write unit tests
+
+### 2. Possible error in binding
+The below will not work, please use `[src]` instead of `src`.
+```html
+<!-- src/app/courses-navigation/containers/phase-home/phase-home.component.html -->
+<img src="/assets/img/courses-navigation/package{{i+1}}.svg" alt="package-icons">
+```
+
 <div class="page-break-after"></div>
 
-### 1. Use getters for complex template conditions
+### 4. Use getters for complex template conditions
 Following coding style has been observed in a few places, please use a getter in the component for the same instead of complex conditions in the template, and also add relevant comments for the condition.
 
 !!! failure Wrong
@@ -116,7 +129,7 @@ public get conditionResult() {
 
 <div class="page-break-after"></div>
 
-### 2. Add proper access modifiers in component
+### 5. Add proper access modifiers in component
 Any method or property that you're going to use in template should be marked a public property, everything else should be marked as a private property. Also take note of `_` in front of private properties.
 
 !!! failure Wrong
@@ -153,8 +166,8 @@ export class MyComponent {
 
 <div class="page-break-after"></div>
 
-### 3. Use proper type declaration
-Don’t ever use the types Number, String, Boolean, Symbol, or Object These types refer to non-primitive boxed objects that are almost never used appropriately in JavaScript code. 
+### 6. Use proper type declaration
+__Don’t ever__ use the types Number, String, Boolean, Symbol, or Object These types refer to non-primitive boxed objects that are almost never used appropriately in JavaScript code. 
 
 Ref: [https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html](https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html)
 
@@ -184,10 +197,10 @@ export class MyComponent {
 
 <div class="page-break-after"></div>
 
-### 4. Document formatting
+### 7. Document formatting
 Please use the default document formatter of your code editor to format the document before commiting it to your repo. We are soon going to implement `prettier` in the repo, but until then use your default code formatter in all `HTML`, `CSS` and `TS` files
 
-### 5. Wrong conditional statement used
+### 8. Wrong conditional statement used
 Wrong conditional statement is used at few places in the code, please correct the same. Also, directly pass `regexp` inside of the match function instead of the `string`, or use a `regexp` constructor
 
 ```ts
@@ -195,7 +208,7 @@ Wrong conditional statement is used at few places in the code, please correct th
 const isB2BUser = Boolean(location.href.match('https?://rohit-fiitjee.mypat.in.+'));
 ```
 
-### 6. Use css variables
+### 9. Use css variables
 Following code has been observed in multiple places, please use global css variables to define the breakpoints, and use them in your media queries.
 
 !!! failure Wrong
@@ -210,22 +223,6 @@ Following code has been observed in multiple places, please use global css varia
 @media only screen and (max-width: var(--breakpoing-medium))
 ```
 !!!
-
-<div class="page-break-after"></div>
-
-### 7. Possibly wrong defaults/placeholder set
-You've used the statement below in the file mentioned below. Appears to be a wrong default/placeholder.
-
-```ts
-// src/app/courses-navigation/components/test-card/test-card.component.ts
-let newDate = new Date(5410 * 1000);
-``` 
-
-### 8. Do not use `::ng-deep`
-We are trying to migrate away fron Angular 4, to angular 5. This is a breaking change, so please don't use this.
-
-### 9. Unit tests
-Do not commit test files if you are not going to write unit tests
 
 <div class="page-break-after"></div>
 
@@ -262,7 +259,15 @@ export class ChapterCardComponent {
 
 <div class="page-break-after"></div>
 
-### 11. Use enums instead of strings
+### 11. Possibly wrong defaults/placeholder set
+You've used this statement in the file mentioned below. Appears to be a wrong default/placeholder.
+
+```ts
+// src/app/courses-navigation/components/test-card/test-card.component.ts
+let newDate = new Date(5410 * 1000);
+``` 
+
+### 12. Use enums instead of strings
 Please use enums at any place you want to add a static string value. e.g.
 
 !!! failure Wrong
@@ -289,7 +294,7 @@ localStorage.getItem(MY_ENUM.SELECTED_GOALS_LIST);
 
 <div class="page-break-after"></div>
 
-### 12. Use CSS Variables for this
+### 13. Use CSS Variables for this
 !!! failure Wrong
 ```ts
 // src/app/courses-navigation/containers/main-tests/main-tests.component.ts
@@ -314,12 +319,6 @@ if(show && window.innerWidth > breakpoint) {
 ```
 !!!
 
-### 13. Possible error in binding
-The below will not work, please use `[src]` instead of `src`.
-```html
-<!-- src/app/courses-navigation/containers/phase-home/phase-home.component.html -->
-<img src="/assets/img/courses-navigation/package{{i+1}}.svg" alt="package-icons">
-```
 <div class="page-break-after"></div>
 
 ### 14. Unsubscribe to all the subscriptions
