@@ -74,7 +74,7 @@ class MyAngularComponent {
 ``` -->
 
 <!-- ##2 -->
-# PR Review
+<h1 style="padding-top:40px">PR Review</h1>
 
 <Header />
 
@@ -86,7 +86,7 @@ We are trying to migrate away fron Angular 4, to angular 5. This is a breaking c
 ### 2. Unit tests
 Do not commit test files `(*.spec.ts)` if you are not going to write unit tests
 
-### 2. Possible error in binding
+### 3. Possible error in binding
 The below will not work, please use `[src]` instead of `src`.
 ```html
 <!-- src/app/courses-navigation/containers/phase-home/phase-home.component.html -->
@@ -166,7 +166,10 @@ export class MyComponent {
 
 <div class="page-break-after"></div>
 
-### 6. Use proper type declaration
+### 6. Using localStorage
+Do not unnecessarily use `localStorage` api to store random data. Almost at all the places that you've used localStorage, it seems so unnecesary and repetitive. e.g. `src/app/auth/admin-access/admin-access.component.ts`, `src/app/auth/fiitJee/fiit-jee-login/login-master/login-master.component.ts`, `src/app/auth/login/login.component.ts`. This is an anti-pattern and something that we're trying to move away from. We've already discussed this in detail before over call and the possible resolutions, please implement that.
+
+### 7. Use proper type declaration
 __Don’t ever__ use the types Number, String, Boolean, Symbol, or Object These types refer to non-primitive boxed objects that are almost never used appropriately in JavaScript code. 
 
 Ref: [https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html](https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html)
@@ -197,10 +200,10 @@ export class MyComponent {
 
 <div class="page-break-after"></div>
 
-### 7. Document formatting
+### 8. Document formatting
 Please use the default document formatter of your code editor to format the document before commiting it to your repo. We are soon going to implement `prettier` in the repo, but until then use your default code formatter in all `HTML`, `CSS` and `TS` files
 
-### 8. Wrong conditional statement used
+### 9. Wrong conditional statement used
 Wrong conditional statement is used at few places in the code, please correct the same. Also, directly pass `regexp` inside of the match function instead of the `string`, or use a `regexp` constructor
 
 ```ts
@@ -208,7 +211,7 @@ Wrong conditional statement is used at few places in the code, please correct th
 const isB2BUser = Boolean(location.href.match('https?://rohit-fiitjee.mypat.in.+'));
 ```
 
-### 9. Use css variables
+### 10. Use css variables
 Following code has been observed in multiple places, please use global css variables to define the breakpoints, and use them in your media queries.
 
 !!! failure Wrong
@@ -226,7 +229,7 @@ Following code has been observed in multiple places, please use global css varia
 
 <div class="page-break-after"></div>
 
-### 10. Use strict type checking
+### 11. Use strict type checking
 Please use strict type checking in your code. We are soon going to enable `strictNullChecks` and `noImplicitAny` flag in our ts compiler.
 
 !!! failure Wrong
@@ -259,7 +262,7 @@ export class ChapterCardComponent {
 
 <div class="page-break-after"></div>
 
-### 11. Possibly wrong defaults/placeholder set
+### 12. Possibly wrong defaults/placeholder set
 You've used this statement in the file mentioned below. Appears to be a wrong default/placeholder.
 
 ```ts
@@ -267,7 +270,7 @@ You've used this statement in the file mentioned below. Appears to be a wrong de
 let newDate = new Date(5410 * 1000);
 ``` 
 
-### 12. Use enums instead of strings
+### 13. Use enums instead of strings
 Please use enums at any place you want to add a static string value for strict type checking. e.g.
 
 !!! failure Wrong
@@ -294,7 +297,7 @@ localStorage.getItem(MY_ENUM.SELECTED_GOALS_LIST);
 
 <div class="page-break-after"></div>
 
-### 13. Use CSS Variables for this
+### 14. Use CSS Variables for this
 !!! failure Wrong
 ```ts
 // src/app/courses-navigation/containers/main-tests/main-tests.component.ts
@@ -321,7 +324,7 @@ if(show && window.innerWidth > breakpoint) {
 
 <div class="page-break-after"></div>
 
-### 14. Unsubscribe to all the subscriptions
+### 15. Unsubscribe to all the subscriptions
 Unsubscribe to all your subscriptions in your component's destroy hook.
 
 !!! failure Wrong
