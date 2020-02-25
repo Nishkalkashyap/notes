@@ -73,13 +73,15 @@ class MyAngularComponent {
 }
 ``` -->
 
+<!-- ##2 -->
 # PR Review
 
 <Header />
 
 [[toc]]
 
-<!-- ##2 -->
+<div class="page-break-after"></div>
+
 ### 1. Use getters for complex template conditions
 Following coding style has been observed in a few places, please use a getter in the component for the same instead of complex conditions in the template, and also add relevant comments for the condition.
 
@@ -284,6 +286,94 @@ enum MY_ENUM {
 localStorage.getItem(MY_ENUM.SELECTED_GOALS_LIST);
 ```
 !!!
+
+<div class="page-break-after"></div>
+
+### 12. Use CSS Variables for this
+!!! failure Wrong
+```ts
+// src/app/courses-navigation/containers/main-tests/main-tests.component.ts
+if(show && window.innerWidth > 767){
+    // ...your code
+}
+```
+!!!
+
+!!! success Right
+```ts
+// src/app/courses-navigation/containers/main-tests/main-tests.component.ts
+
+/**
+* define --breakpoint-medium css var
+* get the variable from document styles
+*/
+const breakpoint = document.documentElement.styles.getProperty('--breakpoint-medium');
+if(show && window.innerWidth > breakpoint) {
+    // ...your code
+}
+```
+!!!
+
+### 13. Possible error in binding
+The below will not work, please use `[src]` instead of `src`.
+```html
+<!-- src/app/courses-navigation/containers/phase-home/phase-home.component.html -->
+<img src="/assets/img/courses-navigation/package{{i+1}}.svg" alt="package-icons">
+```
+<div class="page-break-after"></div>
+
+### 14. Unsubscribe to all the subscriptions
+Unsubscribe to all your subscriptions in your component's destroy hook.
+
+!!! failure Wrong
+```ts
+// src/app/courses-navigation/components/faq/faq.component.ts
+export class FaqComponent {
+    ngOnInit() {
+        /* Faq api response */
+        this._phaseHomeService.getFAQData(this.packageId)
+        .subscribe(
+            (response) => {
+            this.FAQ = response.data.packageFaqList;
+            console.log(response.data.packageFaqList)
+            }
+        );
+    }
+}
+```
+!!!
+
+<div class="page-break-after"></div>
+
+##### Implement something like this, or make your own implementation.
+
+!!! success Right
+```ts
+// src/app/courses-navigation/components/faq/faq.component.ts
+export class FaqComponent implements OnInit, OnDestroy {
+
+    subscriptions: Subscriptions[] = [];
+
+    ngOnInit() {
+        this.subscriptions.push(this._phaseHomeService.getFAQData(this.packageId)
+        .subscribe(
+            (response) => {
+            this.FAQ = response.data.packageFaqList;
+            console.log(response.data.packageFaqList)
+            }
+        ));
+    }
+
+    ngOnDestroy() {
+        this.subscriptions.map((sub)=>sub.unsubscribe());
+    }
+}
+```
+!!!
+
+
+
+
 
 
 
