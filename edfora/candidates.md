@@ -456,6 +456,63 @@ tags : []
 * (no react.js, or angular)
 ```
 
+
+## **Hardik**
+* Profile - 
+* Email - hardiksehgal1996@gmail.com
+* Dated - 25/02/2020
+
+```md
+* VIT University, Vellore
+* Tech Stack: .Net, C#, Angular 2
+```
+
+## **Sakshi Aggarwal**
+* Profile - 
+* Email - sakshi.aggarwal294@gmail.com
+* Dated - 28/02/2020
+
+```md
+Education: B.Tech(National Institute of Technology,Hamirpur)
+* Tech Stack: Angular 6, Java, JavaScript
+* Does not works with JS
+```
+
+## **Chandan**
+* Profile - 
+* Email - chandan_92@outlook.com
+* Dated - 28/02/2020
+* type: offline 
+
+```md
+* Tech Stack: React.js, both native and web, Node.js, Express, SQL started with Mongo
+* Knows javascript modules
+* knows code splitting
+* Does not knows dynamic imports
+* Knows webpack
+* Knows HMR
+* knows React hooks
+* Has not done ssr
+* Knows polyfills
+* Knows express middlewares
+* JavaScript: 
+* Nodejs:
+* React:
+* Express: 
+```
+
+## **Neha**
+* Profile - 
+* Email - chandan_92@outlook.com
+* Dated - 28/02/2020
+* type: offline 
+
+```md
+* Teck Stack: Angular, Node.js, MySQL Database, ElasticSearch
+* No React.js, HTML and CSS
+* Express servers
+```
+
 <!-- 
 * We can have a conversation and 
 * just give you a brief description this hiring and a 
