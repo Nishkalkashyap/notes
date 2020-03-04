@@ -504,13 +504,37 @@ Education: B.Tech(National Institute of Technology,Hamirpur)
 ## **Neha**
 * Profile - 
 * Email - chandan_92@outlook.com
-* Dated - 28/02/2020
-* type: offline 
+* Dated - 03/03/2020
 
 ```md
 * Teck Stack: Angular, Node.js, MySQL Database, ElasticSearch
 * No React.js, HTML and CSS
 * Express servers
+```
+
+
+## **Aishwarya Vaibhav**
+* Profile - 
+* Email - aishwaryavaibhav@gmail.com
+* Dated - 03/03/2020
+
+```md
+* Mainly involved with backend
+* Tech Stack: Node.js, Angular, React native( not much), MySQL, postgress,MongoDB, RabbitMQ, DevOps, Kubernetes
+* Knows prototypal inheritance
+* Didn't knew different module definitions
+* Knew package-lock.json file purpose
+```
+
+## **Shivendra Misra**
+* Profile - 
+* Email - aishwaryavaibhav@gmail.com
+* Dated - 04/03/2020
+
+```md
+* Tech Stack: MERN stack, MongoDB, MySql
+* Entrepreneurial
+* Bachelors of commerce
 ```
 
 <!-- 
