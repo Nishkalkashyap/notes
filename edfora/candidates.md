@@ -535,6 +535,26 @@ Education: B.Tech(National Institute of Technology,Hamirpur)
 * Tech Stack: MERN stack, MongoDB, MySql
 * Entrepreneurial
 * Bachelors of commerce
+* No TypeScript
+* No prototypal inheritance
+* Didn't knew virtual DOM
+* No webpack, package-lock.json , polyfills.
+* AWs: Elastic Beanstalk, S3, EC2
+```
+
+## **Amarjeet Singh Mudhar**
+* Profile - Apparently fullstack
+* Email - amarjeet@teksavant.com
+* Dated - 13/03/2020
+* type - offline
+
+```md
+* Tech Stack: React.js, redux, socket.io, node.js, flutter, MySQL, redis
+* Didn't knew modules
+* Doesn't knows hoisting
+* no webpack
+* React lifecycle
+* Didn't knew virtual dom, polyfills, semantic versioning, no middle wares in express
 ```
 
 <!-- 
