@@ -557,6 +557,35 @@ Education: B.Tech(National Institute of Technology,Hamirpur)
 * Didn't knew virtual dom, polyfills, semantic versioning, no middle wares in express
 ```
 
+## **RAUNAK AGARWAL**
+* Profile - Fullstack
+* Email - Raunakagarwal552@gmail.com
+* Dated - 16/03/2020
+
+```md
+* Tech Stack: Node.js, React,js, Angular 8, MongoDB, backend infra
+* Full stack
+* Lazy loading: Knows in angular, not in react
+* Doesn't knows package-lock.json, how node.js resolves modules
+* Knows prototypal inheritance, react hooks
+```
+
+
+## **Ravi Shankar**
+* Profile - Fullstack
+* Email - ravishankar.rsd@gmail.com
+* Dated - 16/03/2020
+
+```md
+* Tech Stack: Angular, JavaScript, JS, CSS, Typescript
+* Mainly frontend developer
+* Knows modules in javascript
+* Doesn't knows node.js resolution , no module definitions, no webpack
+* No package-lock.json file
+* Knows polyfills, no SSR
+* Knows hoisting
+```
+
 <!-- 
 * We can have a conversation and 
 * just give you a brief description this hiring and a 
