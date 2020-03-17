@@ -586,6 +586,20 @@ Education: B.Tech(National Institute of Technology,Hamirpur)
 * Knows hoisting
 ```
 
+## **Kushagra Saxena**
+* Profile - Fullstack
+* Email - kkss420@gmail.com
+* Dated - 17/03/2020
+
+```md
+* DevsLane
+* Tech Stack: Php, MySQL, Nodejs, Angular, React.js, flutter
+* Knew lazy loading, in angular as well as react
+* Not used webpack
+* Code splitting/ chunk splitting
+* Knew main field in node.js resolution, package-lock.json file, promises
+```
+
 <!-- 
 * We can have a conversation and 
 * just give you a brief description this hiring and a 
