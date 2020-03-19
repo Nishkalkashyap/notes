@@ -600,6 +600,32 @@ Education: B.Tech(National Institute of Technology,Hamirpur)
 * Knew main field in node.js resolution, package-lock.json file, promises
 ```
 
+## **Vishal Kumar**
+* Profile - Fullstack
+* Email - vishal194kumar@gmail.com
+* Dated - 18/03/2020
+
+```md
+* Tech Stack: Node.js, Angular little bit, Express, Hapi.js, MongoDB and MySQL
+* Didn't knew package-lock.json file
+* Didn't knew modules (said node_modules)
+* Didn't knew hoisting
+```
+
+
+## **Arjun Singh**
+* Profile - Backend
+* Email - naveennarotra@gmail.com
+* Dated - 19/03/2020
+
+```md
+* Tech Stack: PHP, JavaScript, Node.js, MySQL, MongoDB, Redis, RabbitMQ
+* Was able to solve reccursive function
+* Didn't knew node.js resolution
+* Didn't knew package-lock.json file
+* Absurd answer for variable hoisting
+```
+
 <!-- 
 * We can have a conversation and 
 * just give you a brief description this hiring and a 
