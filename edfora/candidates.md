@@ -626,6 +626,33 @@ Education: B.Tech(National Institute of Technology,Hamirpur)
 * Absurd answer for variable hoisting
 ```
 
+## **Sudhir Meena**
+* Profile - Backend
+* Email - sureshmeena512@gmail.com
+* Dated - 19/03/2020
+
+```md
+* Tech Stack: Python and JavaScript. Django, Node.js, Express, React.js, Vue.js, __No Typescript__, MySQL, MongoDB 
+* Does not even knows basic JS syntax _(like how to define a variable)_, let alone indepth concepts
+* Does not works with TypeScript
+* Does not knows variable hoisting
+* Very hard to have conversation with, bad communication skills
+```
+
+## **Tejpal Yadav**
+* Profile - Sr. Software Developer
+* Email - tez.b12022@gmail.com
+* Dated - 20/03/2020
+
+```md
+* Tech Stack: Node.js, python, MySQL and MongoDB
+* Doesn't knows how to even declare variables
+* Doesn't knows javascript modules
+* No typescript
+* prototypal inheritance
+* no hoisting
+```
+
 <!-- 
 * We can have a conversation and 
 * just give you a brief description this hiring and a 
