@@ -653,6 +653,33 @@ Education: B.Tech(National Institute of Technology,Hamirpur)
 * no hoisting
 ```
 
+## **Prakhar Sharma**
+* Profile - Sr. Software Developer
+* Email - prakhar.sharma2512@gmail.com
+* Dated - 20/03/2020
+
+```md
+* Tech Stack: laravel, node.js, JavaScript
+* Was not able to solve coding challenge. Had some problems with the syntax
+* Didn't knew difference between `require` and `import`
+* Doesn't knows node.js module resolution
+```
+
+## **Rajat Kumar**
+* Profile - Sr. Software Developer
+* Email - rajatraghuvanshi47@gmail.com
+* LinkedIn: https://www.linkedin.com/in/rajatraghuvanshi
+* Dated - 23/03/2020
+
+```md
+* Tech Stack: React.js, Express and node.js, Typescript, AWS DynamoDB _(fullstack developer)_
+* Mentoring 20 students
+* Knew lazy loading, JS modules
+* Didn't knew code splitting/chunk splitting, module definitions, node module resolution
+* Knew hoisting in JavaScript _(sortof)_, Prototypal inheritance, React lifecycle methods, React hooks
+* Hasn't used webpack, package-lock.json file
+```
+
 <!-- 
 * We can have a conversation and 
 * just give you a brief description this hiring and a 
