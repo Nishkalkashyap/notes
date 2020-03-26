@@ -705,6 +705,23 @@ Education: B.Tech(National Institute of Technology,Hamirpur)
 * Very very wrong profile, has worked for past 5-6 months, writes 1 year 7 months. with 11 months of intern experience
 ```
 
+## **Nikhil Sharma**
+* Profile - Full stack deveopler
+* Email - nikhil.k1012@gmail.com
+* Dated - 26/03/2020
+
+```md
+* Tech Stack: Angular, Vue.js, ionic, cordova, TypeScript
+* AWS: Lambda, elasticsearch, EC2, DynamoDB, SNS and SQS - _(sometimes)_
+* Knew modules, lazy loading in Angular not in React.js
+* Didn't knew code splitting/chunk splitting
+* Didn't knew module definitions
+* Knew how node.js resolves modules
+* Somewhat knew webpack
+* Has used lambda, knows limitations
+* Doesn't knows server side rendering, package-lock.json file
+```
+
 <!-- 
 * We can have a conversation and 
 * just give you a brief description this hiring and a 
