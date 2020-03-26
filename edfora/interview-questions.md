@@ -89,23 +89,24 @@ For example, given the string s = "AABAAB" , remove an  at positions  and  to ma
 5. What are commonjs modules?
 6. Can we `require` json files
 7. Difference between `require` and `import`
-8. What is the difference between various module definitions e.g AMD/ requirejs/ UMD modules e.t.c
-9. How Node.js resolves modules
-10. Explain the difference between readFile and createReadStream in Node js ?
-11. List types of Http requests?
-12. What is hoisting in JavaScript?
-13. Build systems/ webpack e.t.c
-14. What are micro-services?
-15. Prototypal inheritance
-16. React hooks
-17. React lifecycle methods
-18. React virtual DOM
-19. Purpose of package-lock.json
-20. Difference between ES6, ES7 Syntax
-21. What are Polyfills?
-22. Server side rendering
-23. Semantic versioning
-24. Middlewares in express
+8. Can we use `import` statement natively in node.js?
+9. What is the difference between various module definitions e.g AMD/ requirejs/ UMD modules e.t.c
+10. How Node.js resolves modules
+11. Explain the difference between readFile and createReadStream in Node js ?
+12. List types of Http requests?
+13. What is hoisting in JavaScript?
+14. Build systems/ webpack e.t.c
+15. What are micro-services?
+16. Prototypal inheritance
+17. React hooks
+18. React lifecycle methods
+19. React virtual DOM
+20. Purpose of package-lock.json
+21. Difference between ES6, ES7 Syntax
+22. What are Polyfills?
+23. Server side rendering
+24. Semantic versioning
+25. Middlewares in express
 
 add firebase qquestions
 aws lambda

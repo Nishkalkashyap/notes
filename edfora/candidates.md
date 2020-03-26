@@ -680,6 +680,31 @@ Education: B.Tech(National Institute of Technology,Hamirpur)
 * Hasn't used webpack, package-lock.json file
 ```
 
+## **Mehul Mittal**
+* Profile - Sr. Software Developer
+* Email - rajatraghuvanshi47@gmail.com
+* LinkedIn: https://www.linkedin.com/in/rajatraghuvanshi
+* Dated - 23/03/2020
+
+```md
+* Tech Stack: Node.js, MySQL DB, React.js-redux, elasticsearch
+* Has worked as senior developer in fintech company, mainly backend developer
+* Good communication skills
+* Looks like will take initiatives
+```
+
+## **Anil Yadav**
+* Profile - Backend Developer
+* Email - anilyadav918@gmail.com
+* LinkedIn: https://in.linkedin.com/in/anil-yadav-060a4b114
+* Dated - 26/03/2020
+
+```md
+* Tech Stack: C++, Node.js _(apparently)_
+* Write queries using node.js and mongodb
+* Very very wrong profile, has worked for past 5-6 months, writes 1 year 7 months. with 11 months of intern experience
+```
+
 <!-- 
 * We can have a conversation and 
 * just give you a brief description this hiring and a 
