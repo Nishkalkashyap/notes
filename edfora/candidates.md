@@ -722,6 +722,21 @@ Education: B.Tech(National Institute of Technology,Hamirpur)
 * Doesn't knows server side rendering, package-lock.json file
 ```
 
+
+## **Tarun Goyal**
+* Profile - Full stack deveopler
+* Email - tarun95g@gmail.com
+* Dated - 27/03/2020
+
+```md
+* Tech Stack: Angular 7, Vue.js, Angular JS, TypeScript
+* Didn't knew modules in JS, but in Angular
+* Knew code splittig, webpack loaders sortof
+* Knew AMD modules and commonjs modules sortof
+* Didn't knew `package-lock.json`
+* Knew polyfills
+```
+
 <!-- 
 * We can have a conversation and 
 * just give you a brief description this hiring and a 
