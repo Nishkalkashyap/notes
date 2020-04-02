@@ -98,11 +98,35 @@ We add service worker in the website using the webpack plugin `workbox-webpack-p
 At the time of the build, we do lossy image compression to compress the size of images, this is again done using webpack. Check out the rest of the config here - `./base-webpack.config.js`
 
 ## Notes on Documentation website
-The idea of this documentation website is to bring all the technical documentation of the organization at one place.
+The idea of this documentation website is to bring all the technical documentation of the organization at one place. It is a statically built website and works on top of the `Vue.js` and `Vuepress` framework. Check out the getting started guide to see the development and build process. 
 
-## Notes on cloudflare
+Here I share the deploy process, for the admins of this repo. The website will be deployed on `docs.mypat.org` bucket on S3, which is mapped through cloudflare DNS and makes the website accessible at `https://docs.mypat.org`.
+
+### Setting the environment variables
+Set the following environment variables in the project at `./docs/.env`
+```
+aws_access_key_id=
+aws_secret_access_key=
+```
+
+### Deploy process
+1. `git clone https://your-bitBucket-handle@bitbucket.org/edfora/documentation.git`
+2. `cd ./documentation/docs`
+3. `npm install`
+4. `npm run build`
+5. `npm run deploy`
+
+### Restricting website access
+Since the website could contain some confidential data and content of the organization, we implement an ip address access filter. Only the ones accessing the website through organization's internal internal IP will be able to access the website.
+
+The IP address filter is implemented using cloudflare workers as follows:
+
+
+
+
+<!-- ## Notes on cloudflare
 
 ### DNS resolver and the concept of DNS proxy
 At its core, cloudflare is a reverse proxy. 
-![](/edfora/cf-1.jpg)
+![](/edfora/cf-1.jpg) -->
 
