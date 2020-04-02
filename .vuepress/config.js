@@ -149,7 +149,7 @@ module.exports = {
                 "email-1.md"
             ],
             "/edfora/": [
-                "performance.md",
+                "kt-documentation.md",
                 "sagar.md",
                 "todo.md",
                 "running-cms.md",
