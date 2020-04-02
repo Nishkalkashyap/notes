@@ -682,9 +682,9 @@ Education: B.Tech(National Institute of Technology,Hamirpur)
 
 ## **Mehul Mittal**
 * Profile - Sr. Software Developer
-* Email - rajatraghuvanshi47@gmail.com
+* Email - mmittal17@live.com
 * LinkedIn: https://www.linkedin.com/in/rajatraghuvanshi
-* Dated - 23/03/2020
+* Dated - 25/03/2020
 
 ```md
 * Tech Stack: Node.js, MySQL DB, React.js-redux, elasticsearch
@@ -735,6 +735,38 @@ Education: B.Tech(National Institute of Technology,Hamirpur)
 * Knew AMD modules and commonjs modules sortof
 * Didn't knew `package-lock.json`
 * Knew polyfills
+```
+
+## **Rahul Sant**
+* Profile - Full stack deveopler
+* Email - rahulsant100@gmail.com
+* Dated - 30/03/2020
+
+```md
+* Tech Stack: nest.js, flask, python, React.js
+```
+
+## **Bhavay Anand**
+* Profile - Full stack deveopler
+* Email - bhavayanand9@gmail.com
+* Dated - 30/03/2020
+
+```md
+* Tech Stack: mongodb, java, node.js, javascript
+* Didn't knew modules in javascript, package-lock.json
+* Knew prototypal inheritance
+```
+
+## **Anmol Rastogi**
+* Profile - Full stack deveopler
+* Email - anmol.rastogi16@gmail.com
+* Dated - 31/03/2020
+
+```md
+* Tech Stack: Angular, Node.js, MySQL - MongoDB, AWS - s3, lambda, api gateway
+* Knew lazy loading in angular
+* Didn't knew package-lock.json file thing
+* Hasn't used webpack before
 ```
 
 <!-- 

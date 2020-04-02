@@ -8,48 +8,19 @@ tags : []
 
 [[toc]]
 
-## Interview process
-* Make a profile specific bank (backend, frontend, data structures e.t.c)
-* Interview process
-  * See resume/portfolio beforehand
-  * Discuss the candidate with HR
-  * Profile specific interview questions (Junior dev v/s Veteran)
-* Sending a thank you email/ with reasons for rejecting.
+## Cloudflare
 
-!!! warning [Learn more](/edfora/coding-platforms.html)
-!!!
+* Moving with paid plan not possible (CNAME pointing not available for root domains)
+* Still moving to cloudflare
+* Need Mohit for entire day, will convert alias records to CNAME
+* Migration will be done at night, need domain access for goDaddy
 
-## Documentation
-* Department specific documentation
-* Workflow between various departments e.g.(Product department > Developers > QA feedback loop)
-* People working in a department, linkedIn profile e.t.c
-* How to take leaves
-* Add links/hyper-links e.t.c
+## Post cloudflare migration
+* Make production elasticbean stalk server
+* Update deploy pipelines on Jenkins for multiple buckets
 
-## ToDo
-* Trello
-* Test aspect ratio thing
-* Images lazy loading directive ---- JSON and node.js script v/s git commit files
-* angular-html-parser
+## Schools
+* Merging code on frontend, prod branch in school branch
+* Deploying code on new infrastructure, _(will be done post cloudflare)_
 
-<div  class="my-image-container">
-    <img src="https://wallpaperaccess.com/full/251722.jpg" class="my-image">
-</div>
-
-<style>
-.my-image-container {
-    position: relative;
-    padding-top: calc(462 / 740 * 100%);
-    height: 0;
-}
-
-.my-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    max-width: 100%;
-    height: auto; 
-}
-</style>
-
-## YOLO GOLO
+18th of March
