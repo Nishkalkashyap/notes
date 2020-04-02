@@ -116,6 +116,8 @@ aws_secret_access_key=
 4. `npm run build`
 5. `npm run deploy`
 
+<div class="page-break-after" />
+
 ### Restricting website access
 Since the website could contain some confidential data and content of the organization, we implement an ip address access filter. Only the ones accessing the website through organization's internal internal IP will be able to access the website.
 
@@ -144,20 +146,28 @@ async function handleRequest(request) {
 The worker must be assigned a route to intercept, only then it works.
 !!!
 
+<div class="page-break-after" />
+
+
 ## Notes on cloudflare
 
 ### Adding DNS records
 You can add DNS records in cloudflare by going into the DNS panel, The rest of the UI is pretty straight forward
 ![](/edfora/cf-2.jpg)
 
+<div class="page-break-after" />
+
 ### Proxying a domain
 To proxy a domain through cloudflare, click on the `cloud` icon as described in the image below. When the icon turns orange, this means that the domain is now proxied through cloudflare.
+
 ![](/edfora/cf-3.jpg)
 
 !!! note Note
 To enable DDoS mitigation, CND and other cloudflare features, you **must** proxy the records.
 If you do not proxy a domain through cloudflare, cloudflare simply acts as a DNS resolver, and nothing more. 
 !!!
+
+<div class="page-break-after" />
 
 ### Cloudflare SSL type
 Cloudflare has 4 different types of SSL encryption modes, **we have to** use the `Full` encryption mode, since we issue our own certificates through AWS certificate manager.
@@ -167,6 +177,8 @@ Cloudflare has 4 different types of SSL encryption modes, **we have to** use the
 Any other mode of encryption could break the website in our case
 !!!
 
+<div class="page-break-after" />
+
 ### Optimizations
 We use several optimization features of cloudflare. Check them out at the `Optimization` tab in the `Speed` section, as described in the image below.
 ![](/edfora/cf-5.jpg)
@@ -175,6 +187,8 @@ We use several optimization features of cloudflare. Check them out at the `Optim
     ![](/edfora/cf-6.jpg)
 2. Rocket Loader _(Keep it enabled)_
     ![](/edfora/cf-7.jpg)
+
+<div class="page-break-after" />
 
 ### Caching
 1. Purging cache and cache level
