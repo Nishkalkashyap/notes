@@ -12,7 +12,7 @@ pageClass: hide-sagar
 
 ## Notes on Mypat frontend
 
-### How we webpack in Angular's build process
+### How we add webpack in Angular's build process
 **Mypat frontend** is built on top of Angular 4, which does not has native support for injecting custom webpack config in the build process unlike Angular version 6+. We can use `ng eject` command to expose a custom webpack config but that comes with its own demerits. 
 
 So to include webpack in our build process, we improvised and created our own way which works by modifying the `@angular/cli` package and changing angular's build scripts. 
@@ -119,9 +119,30 @@ aws_secret_access_key=
 ### Restricting website access
 Since the website could contain some confidential data and content of the organization, we implement an ip address access filter. Only the ones accessing the website through organization's internal internal IP will be able to access the website.
 
-The IP address filter is implemented using cloudflare workers as follows:
+The IP address filter is implemented using `cloudflare workers` as follows:
+```js
+addEventListener('fetch', event => {
+  event.respondWith(handleRequest(event.request))
+});
 
+async function handleRequest(request) {
+    // Organization's internal IP address
+    const edfora_internal_ip = '182.71.150.179';
+    const request_ip = request.headers.get("cf-connecting-ip") || request.headers.get("cf-ipcountry");
+    if (edfora_internal_ip == request_ip) {
+        const response = await fetch(request);
+        return response;
+    }
+    const res = new Response();
+    res.status = 404;
+    res.statusText = "Unauthorized";
+    return res;
+}
+```
 
+!!! note Note
+The worker must be assigned a route to intercept, only then it works.
+!!!
 
 
 <!-- ## Notes on cloudflare
