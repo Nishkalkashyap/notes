@@ -144,10 +144,45 @@ async function handleRequest(request) {
 The worker must be assigned a route to intercept, only then it works.
 !!!
 
+## Notes on cloudflare
 
-<!-- ## Notes on cloudflare
+### Adding DNS records
+You can add DNS records in cloudflare by going into the DNS panel, The rest of the UI is pretty straight forward
+![](/edfora/cf-2.jpg)
 
-### DNS resolver and the concept of DNS proxy
-At its core, cloudflare is a reverse proxy. 
-![](/edfora/cf-1.jpg) -->
+### Proxying a domain
+To proxy a domain through cloudflare, click on the `cloud` icon as described in the image below. When the icon turns orange, this means that the domain is now proxied through cloudflare.
+![](/edfora/cf-3.jpg)
 
+!!! note Note
+To enable DDoS mitigation, CND and other cloudflare features, you **must** proxy the records.
+If you do not proxy a domain through cloudflare, cloudflare simply acts as a DNS resolver, and nothing more. 
+!!!
+
+### Cloudflare SSL type
+Cloudflare has 4 different types of SSL encryption modes, **we have to** use the `Full` encryption mode, since we issue our own certificates through AWS certificate manager.
+![](/edfora/cf-4.jpg)
+
+!!! warning Warning
+Any other mode of encryption could break the website in our case
+!!!
+
+### Optimizations
+We use several optimization features of cloudflare. Check them out at the `Optimization` tab in the `Speed` section, as described in the image below.
+![](/edfora/cf-5.jpg)
+
+1. Auto Minification and Brotli Compression _(Keep them both turned on)_
+    ![](/edfora/cf-6.jpg)
+2. Rocket Loader _(Keep it enabled)_
+    ![](/edfora/cf-7.jpg)
+
+### Caching
+1. Purging cache and cache level
+    1. Use the `Purge Everything` option to purge cache from cloudflare, it may take up to 30 seconds to reflect.
+    2. Use the `Standard` cache level, as we don't want to cache query strings
+    ![](/edfora/cf-8.jpg)
+2. Browser cache TTL, Always Online and development Mode
+    1. **Browser cache ttl**: Currently, since are not setting `cache-control` headers on our server, we are using default caching policy of caching items for 4 hours. **This should be changed** and appropriate caching headers should be added from the server.
+    2. **Always Online** <Badge text="Keep this on" type="tip"/>: Cloudflare will crawl our website _weekly_ and will cache the website, so that in case out server goes down, users are still able to see our website. **Keep this on**
+    3. **Development mode** <Badge text="Keep this off" type="warning"/>: If you're pushing large number of commits in a short period of time, it can become tedious to clear cache every time. Enable this mode to disable caching while development. You would, for most of the time, **keep this off**
+    ![](/edfora/cf-9.jpg)
