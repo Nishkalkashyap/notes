@@ -39,6 +39,11 @@ exports.AllTags = reverse({
         color: '#322525',
         description: `Continuous Integration solution for Windows and Linux. Build, test, deploy your apps faster, on any platform.`
     },
+    'github': {
+        background: 'var(--text-color--dark)',
+        color: '#3880ff',
+        description: `Github and relates resources`
+    },
     'email-replies': {
         background: 'var(--text-color--dark)',
         color: '#3880ff',
