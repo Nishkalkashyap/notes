@@ -4,10 +4,10 @@ description : How to encrypt and decrypt files in github actions.
 tags : ['github']
 ---
 
-# Appvoyer encrypt files
+# Github encrypt files
 
 !!! note Note
-View on appvoyer: [Link](https://www.appveyor.com/docs/how-to/secure-files/)
+View on github: [Link](https://help.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets)
 !!!
 
 #### 1. Encrypting and decrypting files
@@ -28,7 +28,7 @@ gpg --quiet --batch --yes --decrypt --passphrase="$SECRET_KEY" --output ./path-t
 ```
 
 4. Extracting the tar archive
-```yml
-//-C is for CWD
-- tar xvf secrets.tar -C ./out-dir
+```bash
+# -C is for CWD
+tar xvf secrets.tar -C ./out-dir
 ```
