@@ -8,6 +8,7 @@ tags : []
 
 !!! note Note
 Digital ocean tutorial: [Link](https://www.digitalocean.com/docs/droplets/how-to/add-ssh-keys/to-existing-droplet/)
+bradtraversy: [Link](https://gist.github.com/bradtraversy/f03df587f2323b50beb4250520089a9e)
 !!!
 
 #### 1. Generate ssh key
@@ -25,7 +26,7 @@ ssh-keygen -t ras
 nano ~/.ssh/authorized_keys
 ```
 
-#### 2. Change SSH config
+#### 3. Change SSH config
 ```bash
 // edit config here
 sudo nano /etc/shell/sshd_config
@@ -33,5 +34,17 @@ sudo nano /etc/shell/sshd_config
 // after editing
 sudo systemctl reload sshd
 ```
+
+#### 4. Create new user with sudo
+```bash
+$ adduser my-user-name
+
+$ id my-user-name
+
+$ usermod -aG sudo my-user-name
+
+$ id my-user-name
+```
+
 
 
