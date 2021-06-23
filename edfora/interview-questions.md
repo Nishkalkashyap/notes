@@ -49,7 +49,7 @@ for (var i = 0;i < arr.length;i++) {
 ```
 
 ### Tech-Question-4
-Write a function to reverse a String without using any pre-defined functions.
+Write a function to reverse a String
 ```js
 function reverseString(text : string) : string {
     //...your code goes here
@@ -107,7 +107,12 @@ For example, given the string s = "AABAAB" , remove an  at positions  and  to ma
 23. Server side rendering
 24. Semantic versioning
 25. Middlewares in express
+26. CORS
+27. Cookies
+28. Ask react redux questions
+29. Ask typescript questions
+30. Ads before
 
-add firebase qquestions
+add firebase questions
 aws lambda
 serverless

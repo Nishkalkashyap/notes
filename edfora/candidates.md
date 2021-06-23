@@ -769,6 +769,29 @@ Education: B.Tech(National Institute of Technology,Hamirpur)
 * Hasn't used webpack before
 ```
 
+## **Aniket Batabyal**
+* Profile - Full stack developer
+* Email - `aniketbatabyal1996@gmail.com`
+* Dated - 17/06/2021
+
+```md
+* Tech stack: Node.js, React, Redux, AWS - lambda, cloudfront, S3
+* Somewhat knows webpack
+* Didn't knew methods on `Map`, frequent google search requests
+* Was able to solve both string manipulation problems
+* Got a little nervous it seems
+* Decent communication skills
+```
+
+## **Shubham Gautam**
+* Profile - 
+* Email - `shubhamgautam1105@gmail.com`
+* Dated - 18/05/2021
+
+```md
+* Tech stack: React.js, Redux, material UI, webpack
+```
+
 <!-- 
 * We can have a conversation and 
 * just give you a brief description this hiring and a 
